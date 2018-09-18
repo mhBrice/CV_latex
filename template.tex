@@ -103,7 +103,7 @@
 
 
 
-
+%--------------------------------
 % DOCUMENT
 %--------------------------------
 \begin{document}
@@ -111,17 +111,19 @@
 \begin{multicols}{2}
 
 %--------------------------------
-{\LARGE \textbf{$name$}}\\
-% \large \textbf{$status$}
-
-
-$if(nationality)$
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Nationalité}}{\textbf{Nationality}}: $nationality$
+{\Large \textbf{$name$}}\\[.2cm]
+$if(status)$
+$for(status)$
+{\large{$status.title$}} \\
+$endfor$
 $endif$
+
 
 \vspace*{.1cm}
 
-\faHome \quad 90 Queen St \\ \hspace*{.6cm} N1E 4R8 Guelph \\ \hspace*{.6cm} ON, Canada
+$if(address)$
+\faHome \quad $address$
+$endif$
 
 $if(phone)$
 \faPhone \quad $phone$
@@ -129,10 +131,6 @@ $endif$
 
 $if(email)$
 \faEnvelope \quad \href{mailto:$email$}{$email$}
-$endif$
-
-$if(website)$
-\faGlobe \quad \href{http://$website$}{$website$}
 $endif$
 
 $if(website)$
@@ -147,14 +145,6 @@ $if(orcid)$
 OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}
 $endif$
 
-\vspace{.2cm}
-
-
-$if(langage)$
-$for(langage)$
-\textbf{$langage.lang$}: $langage.degree$ \\
-$endfor$
-$endif$
 
 
 % SKILLS
@@ -164,24 +154,24 @@ $if(skills)$
 \columnbreak
 
 
-$if(status)$
-$for(status)$
-{\large\textbf{$status.title$}} \\
-$endfor$
-$endif$
-
-%
-% \ifthenelse{\equal{$lang$}{fr}}{
-%   \section*{\textbf{Compétence principale}}}{
-%   \section*{\textbf{Mains Skills}}} \\
-
-
-
 %------------------
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Scientific Programming}}
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Compétences Scientifiques}}{\textbf{Scientific skills}}
 \vspace{-.4cm}
 
 \setlength{\columnsep}{0cm}
+\begin{multicols}{2}
+
+$for(skills.science)$
+$skills.science$\\
+$endfor$
+\end{multicols}
+
+
+\vspace{-.2cm}
+
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Technical skills}}
+\vspace{-.4cm}
+
 \begin{multicols}{2}
 
 $for(skills.program)$
@@ -189,21 +179,6 @@ $skills.program$\\
 $endfor$
 \end{multicols}
 
-
-\vspace{-.2cm}
-
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Web et Préparation de Document}}{\textbf{Web and Document Preparation}}
-\vspace{-.4cm}
-
-\begin{multicols}{2}
-
-$for(skills.document)$
-$skills.document$\\
-$endfor$
-
-
-\end{multicols}
-\end{multicols}
 $endif$
 
 % $if(intro)$
@@ -235,7 +210,7 @@ $endif$
 $if(experience)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
-  \section*{\textbf{\faLineChart ~ Experience}}}
+  \section*{\textbf{\faLineChart ~ Working experience}}}
 \noindent
 
 $for(experience)$
@@ -264,7 +239,7 @@ $endif$
 $if(grants)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faTrophy ~ Bourses et récompenses}}}{
-  \section*{\textbf{\faTrophy ~ Grants and awards}}}
+  \section*{\textbf{\faTrophy ~ Grants & scholarships}}}
 
 % \section*{Bourses}
 \noindent
@@ -273,13 +248,25 @@ $for(grants)$
 $endfor$
 $endif$
 
+%------------------
+$if(awards)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faTrophy ~ Prix et distinctions}}}{
+  \section*{\textbf{\faTrophy ~ Honors & Awards}}}
+
+% \section*{Bourses}
+\noindent
+$for(awards)$
+\note{$awards.year$} $awards.title$ \\$awards.amount$ \\[.14cm]
+$endfor$
+$endif$
 
 %------------------
 $if(teaching)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faUsers ~ Enseignement}}}{
-  \section*{\textbf{\faUsers ~ Teaching}}}
+  \section*{\textbf{\faBank ~ Enseignement}}}{
+  \section*{\textbf{\faBank ~ Teaching}}}
 
 \noindent
 $for(teaching)$
@@ -296,7 +283,7 @@ $if(references)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faPencilSquareO ~ Articles publiés dans un journal à comité de lecture}}}{
-  \section*{\textbf{\faPencilSquareO ~ Articles published in peer-reviewed journal}}}
+  \section*{\textbf{\faPencilSquareO ~ Papers published in peer-reviewed journal}}}
 
 
 \noindent
@@ -305,7 +292,7 @@ $if(references)$
   \ifthenelse{\equal{$references.type$}{article-journal}}{
   \item{
   $for(references.author)$
-  \ifthenelse{\equal{$references.author.given$}{K.} \OR \equal{$references.author.given$}{Kévin} \OR \equal{$references.author.given$}{Kevin} \AND \equal{$references.author.family$}{Cazelles}}{
+  \ifthenelse{\equal{$references.author.given$}{M.-H.} \OR \equal{$references.author.given$}{Marie-Hélène} \OR \equal{$references.author.given$}{Marie-Helene} \AND \equal{$references.author.family$}{Brice}}{
   \textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
   $endfor$
   $for(references.issued)$ $references.issued.year$$endfor$. $references.title$.
@@ -329,6 +316,7 @@ $endif$
 \vspace{.5cm}
 %------------------
 $if(tobepublished)$
+%------------------
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faCogs ~ Articles soumis ou à soumettre très prochainement}}}{
   \section*{\textbf{\faCogs ~ In Preparation / Submitted / Accepted articles}}}
@@ -339,11 +327,11 @@ $if(tobepublished)$
 $for(tobepublished)$
 \item{
   $for(tobepublished.author)$
-    \ifthenelse{\equal{$tobepublished.author.family$}{Cazelles}}{\textbf{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}}{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}.,
+    \ifthenelse{\equal{$tobepublished.author.family$}{Brice}}{\textbf{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}}{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}.,
   $endfor$
   $tobepublished.year$. $tobepublished.title$.
   \emph{$tobepublished.container-title$}.
-  $if(tobepublished.url)$ \href{$popularization.url$}{popularization.url}} $endif$
+  $if(tobepublished.url)$ \href{$talks.url$}{talks.url}} $endif$
 }
 $endfor$
 \end{enumerate}
@@ -353,87 +341,69 @@ $endif$
 
 
 \vspace{.5cm}
-% REVIEWER
 %------------------
-$if(reviewer)$
+% REPORT
+%------------------
+$if(report)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faSearch ~ Réviseur pour les jounaux à comité de lecture suivants}}}{
-  \section*{\textbf{\faSearch ~ Reviewer for the following peer-reviewed journals}}}
-
-$for(reviewer)$
-{\emph{$reviewer$}}
-$endfor$
-
-$endif$
-
-
-
-
-\vspace{.5cm}
-% CODE
-%------------------
-$if(code)$
-%------------------
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCode ~ Code}}}{
-  \section*{\textbf{\faCode ~ Code}}}
-
-\noindent
-
-$for(code)$
-  \textbf{$code.name$} -
-  \ifthenelse{\equal{$lang$}{fr}}{$code.description_fr$}{$code.description_eng$} ($code.type$).
-  $if(code.github)$\\ \faGithub ~ \href{https://github.com/$code.github$}{$code.github$}$endif$
-  $if(code.zenodo)$~ Zenodo: \href{https://zenodo.org/record/$code.zenodo$}{$code.zenodo$}$endif$ \\[.14cm]
-$endfor$
-$endif$
-
-
-\vspace{.5cm}
-% POPULARIZATION
-%------------------
-$if(popularization)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faShareAlt ~ Vulgarisation scientfique}}}{
-  \section*{\textbf{\faShareAlt ~ Science popularization}}}
+  \section*{\textbf{\faCommentO ~ Mémoire et rapports}}}{
+  \section*{\textbf{\faCommentO ~ Thesis & Reports}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
 
-$for(popularization)$
+$for(report)$
 \item{
-  $for(popularization.author)$
-    \ifthenelse{\equal{$popularization.author.family$}{Cazelles}}{\textbf{$popularization.author.family$ \fl{$popularization.author.given$.}}}{$popularization.author.family$ \fl{$popularization.author.given$.}}.,
+  $for(report.author)$
+    \ifthenelse{\equal{$report.author.family$}{Brice}}{\textbf{$report.author.family$ \fl{$report.author.given$.}}}{$report.author.family$ \fl{$report.author.given$.}}.,
   $endfor$
-  $popularization.year$. $popularization.title$.
-  \emph{$popularization.container-title$}.
-  $if(popularization.url)$ \href{$popularization.url$}{$popularization.url$} $endif$
+  $report.year$. $report.title$.
+  \emph{$report.container-title$}.
+  $if(report.url)$ \href{$report.url$}{$report.url$} $endif$
 }
 $endfor$
 \end{enumerate}
 $endif$
 
 
-
 \vspace{.5cm}
-% PRESS
 %------------------
-$if(media)$
+% TALKS
+%------------------
+$if(talks)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\faNewspaperO ~ \textbf{Mention dans les médias}}}{
-  \section*{\faNewspaperO ~ \textbf{Media}}}
+  \section*{\textbf{\faComment ~ Présentations & affiches}}}{
+  \section*{\textbf{\faComment ~ Talks & posters}}}
 \noindent
 
-$for(media)$
-\note{\quad \quad \quad \quad \quad \quad $media.type$}
-\textbf{$media.media$} ($media.year$, $media.lang$). \\
-\href{$media.url$}{$media.url$} \\[.14cm]
-$endfor$
+\begin{enumerate}[leftmargin=*]
 
+$for(talks)$
+\item{
+  $for(talks.author)$
+    \ifthenelse{\equal{$talks.author.family$}{Brice}}{\textbf{$talks.author.family$ \fl{$talks.author.given$.}}}{$talks.author.family$ \fl{$talks.author.given$.}}.,
+  $endfor$
+  $talks.year$. $talks.title$.
+  \emph{$talks.container-title$}.
+  $if(talks.url)$ \href{$talks.url$}{$talks.url$} $endif$
+}
+$endfor$
+\end{enumerate}
 $endif$
 
 
+%------------------
+$if(implication)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faUsers ~ Implications sociales et communautaires}}}{
+  \section*{\textbf{\faUsers ~ Community involvement}}}
 
-
+\noindent
+$for(implication)$
+\note{$implication.year$}$implication.institute$ \\
+\emph{$implication.description$}\\[.14cm]
+$endfor$
+$endif$
 
 \end{document}

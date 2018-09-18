@@ -1,222 +1,296 @@
 ---
 skills:
+  science:
+    - Plant ecology, Landscape ecology, Urban ecology, Multivariate statistics, Spatial statistics
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ C/C++
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Matlab/Octave
-    - $\blacksquare \blacksquare \square \square \square$ Python
-    - $\blacksquare \blacksquare \square \square \square$ Julia
-    - $\blacksquare \square \square \square \square$ Java
-    - $\blacksquare \blacksquare \square \square \square$ Sage
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Bash
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ UNIX
-
-
-  document:
-    - $\blacksquare \blacksquare \blacksquare \square \square$ HTML/CSS
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Javascript
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Markdown
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Jekyll Hugo
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Latex
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ RMarkdown
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Markdown
+    - $\blacksquare \blacksquare \square \square \square$ HTML/CSS
     - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
+    - $\blacksquare \blacksquare \blacksquare \square \square$ ArcGIS
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ LibreOffice
 
-popularization:
-- title: La Biodiversité en territoire isolée
+
+talks:
+- title: Long-term forest community changes in the boreal-temperate ecotone
   author:
+  - family: Brice
+    given: Marie-Hélène
   - family: Cazelles
     given: Kevin
-  container-title: Accromath
-  year: '2014'
-  volume: 9.1
-  url: http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/
-  category: popularization
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  conference:
+      - name: "ESA Annual Meeting"
+        url: "https://esa.org/neworleans/"
+        date: 2018-08-01
+        where: "New-Orleans, LA, USA"
 
+- title: Changements dans les communautés forestières du Québec méridional au cours des 4 dernières décennies
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  conference:
+      - name: "Invited speaker at Flora Quebeca Meeting"
+        date: 2018-03-23
+        where: "Saint-Augustin-de-Desmaures, Qc, CAN"
+
+- title: Dynamique de transition des communautés forestières dans l’écotone boréal-tempéré
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  conference:
+      - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
+        url: "http://www.symposium-bio.ca/"
+        date: 2018-03-28
+        where: "Montréal, Qc"
+
+- title: Tendances démographiques dans la forêt tempérée nordique
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  conference:
+      - name: "Congrès international francophone en écologie végétale (ECOVEG13)"
+        url: "https://www.ecoveg.esad.ulaval.ca/comite-organisateur.html"
+        date: 2017-09-10
+        where: "Forêt Montmorency, Qc"
+
+- title: Is urbanization driving riparian forests toward taxonomic and functional homogenization?
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  conference:
+      - name: "Annual symposium of Quebec Center for Biodiversity Science (QCBS)"
+        date: 2016-12-15
+        where: "Montréal, Qc"
+
+- title: Disentangling environmental filtering and spatial processes structuring plant functional communities in urban riparian forests
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  conference:
+      - name: "ESA Annual Meeting"
+        date: 2015-08-13
+        where: "Baltimore, MD, USA"
+
+- title: Impact de l'urbanisation sur la distribution de la diversité spécifique et fonctionnelle dans les forêts riveraines
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  conference:
+      - name: "Master exit seminar"
+        date: 2015-08-13
+        where: "Institut de Recherche en Biologie Végétale, Montréal, Qc"
+
+- title: The role of land use, flood variability and spatial processes in structuring functional plant communities in urban riparian forests
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  conference:
+      - name: "Annual symposium of Quebec Center for Biodiversity Science (QCBS)"
+        date: 2014-12-12
+        where: "Montréal, Qc"
+
+- title: Climbing towards the light: Liana distribution and diversity in urban ecosystems
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  conference:
+      - name: "Partnerships for the Living City: Promoting Urban Biodiversity - A Partnership with the Secretariat of the Convention on Biological Diversity"
+        date: 2014-03-07
+        where: "Montréal, Qc"
+
+- title: Impact de l’urbanisation sur la distribution des espèces lianescentes
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  conference:
+      - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
+        date: 2013-03-28
+        where: "Montréal, Qc"
 
 tobepublished:
-- id: Albouy2017
+- id: Deschenes2018
   type: article-journal
   author:
-  - family: Albouy
-    given: Camille
-  - family: Archamabult
-    given: Philippe
-  - family: Appeltans
-    given: W.
-  - family: Araújo
-    given: M. B.
-  - family: Cazelles
-    given: Kevin
-  - family: Cirtwill
-    given: A. R.
-  - family: Fortin
-    given: M.-J.
-  - family: Leroux
-    given: S. J.
-  - family: Pelissier
-    given: Loïc
-  - family: Poisot
-    given: T.
-  - family: Stouffer
-    given: Daniel
-  - family: Wood
-    given: S. A.
-  - family: Gravel
-    given: Dominique
-  year: '2018'
-  title: The marine food web is globally connected
-  container-title: submitted
+    - family: Deschenes
+      given: Elise
+    - family: Brice
+      given: Marie-Hélène
+    - family: Brisson
+      given: Jacques
+    year: 2018
+    title: What factors influence tree mortality in an old growth mixed deciduous forest?
+    container-title: in prep
 
-
-- id: Cazelles2018
+- id: Kirk2018
   type: article-journal
   author:
-  - family: Cazelles
-    given: Kevin
-  - family: Albouy
-    given: Camille
-  - family: Baiser
-    given: Benjamin
-  - family: Dalsgaard
-    given: Bo
-  - family: Farwig
-    given: Nina
-  - family: Lehmann
-    given: Louise J
-  - family: Mouquet
-    given: Nicolas
-  - family: Pelissier
-    given: Loïc
-  - family: Svenning
-    given: Jens-Christian
-  - family: Talluto
-    given: Matthew V.
-  - family: Thuillier
-    given: Wilfried
-  - family: Gravel
-    given: Dominique
-  year: '2018'
-  title: Do interacting species co-occur differently from not-interacting species?
-  container-title: in prep
+    - family: Kirk
+      given: David Anthony
+    - family: Brice
+      given: Marie-Hélène
+    - family: Bradstreet
+      given: Michael S.
+    year: 2018
+    title: Βeta diversity changes in a Remnant Carolinian Forest: Evidence for Biotic Homogenization
+    container-title: in prep
 
-- id: Solarik2017
+- id: Brice2018
   type: article-journal
   author:
-  - family: Solarik
-    given: Kevin
-  - family: Cazelles
-    given: Kevin
-  - family: Bergeron
-    given: Yves
-  - family: Messier
-    given: Christian
-  - family: Gravel
-    given: Dominique
-  year: '2018'
-  title: Are priority effects preventing range shifts of temperate tree species into the boreal forest under rapid climate change?
-  container-title: in prep
+    - family: Brice
+      given: Marie-Hélène
+    - family: Cazelles
+      given: Kevin
+    - family: Legendre
+      given: Pierre
+    - family: Fortin
+      given: Marie-Josée
+    year: 2018
+    title: Drivers of forest community changes in the boreal-temperate ecotone
+    container-title: in prep
 
-- id: Cazelles2018
+references:
+- id: delmas_analysing_2018
   type: article-journal
   author:
-  - family: Cazelles
-    given: Kevin
-  - family: Gravel
-    given: Dominique
-  year: '2018'
-  title: Towards a metabolic theory of island biogeography.
-  container-title: in prep
+    - family: Delmas
+      given: Eva
+    - family: Besson
+      given: Mathilde
+    - family: Brice
+      given: Marie-Hélène
+    - family: Burkle
+      given: Laura A.
+    - family: Dalla Riva
+      given: Giulio V.
+    - family: Fortin
+      given: Marie-Josée
+    - family: Gravel
+      given: Dominique
+    - family: Guimarães
+      given: Paulo R.
+    - family: Hembry
+      given: David H.
+    - family: Newman
+      given: Erica A.
+    - family: Olesen
+      given: Jens M.
+    - family: Pires
+      given: Mathias M.
+    - family: Yeakel
+      given: Justin D.
+    - family: Poisot
+      given: Timothée
+  year: 2018
+  title: Analysing ecological networks of species interactions: Analyzing ecological
+    networks
+  container-title: Biological Reviews
+  URL: 'http://doi.wiley.com/10.1111/brv.12433'
+  DOI: 10.1111/brv.12433
 
-- id: Wheeler2018
+
+- id: brice_does_2017
   type: article-journal
   author:
-  - family: Wheeler
-    given: Helen C.
-  - family: Berteaux
-    given: Dominique
-  - family: Furgal
-    given: Chris
-  - family: Cazelles
-    given: Kevin
-  - family: Yoccoz
-    given: Nigel G.
-  - family: Grémillet
-    given: David
-  year: '2018'
-  title: "From monitoring to desired outcomes: Network analysis identifies key needs for the integration of socio-ecological outcomes in arctic wildlife monitoring"
-  container-title: submitted
+    - family: Brice
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+    - family: Poulin
+      given: Monique
+  year: 2017
+  title: Does urbanization lead to taxonomic and functional homogenization in
+    riparian forests?
+  container-title: Diversity and Distributions
+  URL: 'http://doi.wiley.com/10.1111/ddi.12565'
+  DOI: 10.1111/ddi.12565
 
-code:
-  - name: graphicsutils
-    description_eng: a set of graphical functions.
-    description_fr: un ensemble de fonctions graphiques.
-    type: R package
-    github: https://github.com/inSileco/graphicsutils
-  - name: inSilecoMisc
-    description_eng: a set of miscellenous functions.
-    description_fr: un ensemble de fonctions diverses.
-    type: R package
-    github: inSileco/inSilecoMisc
-  - name: citesR
-    type: R package
-    description_eng: a R client for the CITES Species+ API.
-    description_fr: un client pour l'API du CITES / Species+.
-    github: ibartomeus/citesr
-  - name: burningHouse
-    description_eng: "code to reproduce the analysis by Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
-    description_fr: "code pour reproduire les analyses de Legagneux et al. (2018) DOI: 10.3389/fevo.2017.00175."
-    type: reproducible science
-    github: KevCaz/burningHouse
-    zenodo: 1134897
+- id: brice_environmental_2016
+  type: article-journal
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+    - family: Poulin
+      given: Monique
+  year: 2016
+  title: Environmental filtering and spatial processes in urban riparian forests
+  container-title: Journal of Vegetation Science
+  URL: 'http://doi.wiley.com/10.1111/jvs.12425'
+  DOI: 10.1111/jvs.12425
 
-media:
-    - media: la Presse
-      year: 2018
-      type: \faPencil
-      lang: FR
-      url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
-    - media: Anthropocenemagazine
-      year: 2018
-      url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
-      type: \faPencil
-      lang: ENG
-    - media: Greenreport
-      year: 2018
-      url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
-      type: \faPencil
-      lang: IT
-    - media: 20 minutes
-      year: 2018
-      url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
-      type: \faPencil
-      lang: FR
-    - media: RFI
-      year: 2018
-      url: http://www.rfi.fr/emission/20180218-2-chaos-climatique-financier-jouzel-larrouturou
-      type: \faMicrophone
-      lang: FR
-    - media: le Devoir
-      year: 2018
-      url: http://www.ledevoir.com/socie dpkg-reconfigure locales te/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
-      type: \faPencil
-      lang: FR
+- id: brice_liana_2014
+  type: article-journal
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Bergeron
+      given: Alexandre
+    - family: Pellerin
+      given: Stéphanie
+  year: 2014
+  title: Liana distribution in response to urbanization in temperate forests
+  container-title: Écoscience
+  URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
+  DOI: 10.2980/21-2-3692
 
+report:
+- title: Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec.
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2018
+- title: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines. Master thesis. Université de Montréal.
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2015
+- title: Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal.
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2015
 
-reviewer:
-- Ecography,
-- Ecology,
-- Ecology Letters,
-- Global Ecology and Biogeography,
-- Journal of Animal Ecology,
-- Journal of Vegetation Science,
-- Methods in Ecology and Evolution,
-- PeerJ,
-- Population Ecology,
-- Proceedings of the Royal Society B,
-- Theoretical Ecology.
-
-
-editor:
-- Since 2018, recommander for PCI Ecology.
 ---

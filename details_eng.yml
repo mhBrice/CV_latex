@@ -6,155 +6,150 @@ lang: eng
 geometry: letterpaper, left=40mm, right=20mm, top=20mm, bottom=20mm
 
 # Personal details
-name: Kevin Cazelles
+name: Marie-Hélène Brice
 status:
-  - title:
-  - title: Phd in theoretical ecology
-  - title: Agricultural Engineer
-nationality: french
-phone: "+33 6 38 45 42 79"
-email: kevin.cazelles@gmail.com
-website: kevincazelles.fr
+  - title: Phd candidate in ecology
+  - title: Master in ecology
+address:
+- 10392 Jeanne-mance
+- H3L 3C1, Montréal
+- Québec (CAN)
+email: marie-helene.brice@umontreal.ca
 blog: insileco.github.io/
-github: KevCaz
-orcid: 0000-0001-6619-9874
-mainskills: "Biologie, Ecologie, Biogéographie, bio-informatique, modélisation mathématiques et statistiques"
-
-
-
-
-
-experience:
-
-- years: "Since June 2017"
-  employer: University of Guelph
-  unit: McCann Lab
-  job: "Post-doctoral fellow: theoretical investigations to build an energetic theory of island biogeography."
-  city: Guelph ON, Canada
-  description:
-    -
-
-- years: "Summer 2012"
-  employer: Ecole Normale Supérieure
-  unit: Laboratoire Ecologie et Evolution
-  job: "Research Professional, working on wavelets: statistical testing, code in C and application to time series of dengue in Southern Asia."
-  city: Paris, France
-  description:
-    - working on wavelets
-
-- years: "Early 2012"
-  employer: Université de Montpellier
-  unit: Institut des Sciences de l'Evolution
-  job: "Four months’ training period, working on species distribution model and biotic interactions."
-  city: Paris, France
-  description:
-    - working on species distribution model and biotic interactions.
-
-- years: "2011"
-  employer: Universidade Federal de Minas Gerais
-  unit: "Laboratório de Ecologia Evolutiva e Biodiversidade"
-  job: "Six months’ training period, working on herbaceous plant communities in Cerrado: phenology and germination."
-  city: Belo Horizonte, Brazil
-  description:
-    - working on herbaceous plant communities in Cerrado phenology and germination.
-
-- years: "2009"
-  employer: Abertay University
-  unit: SIMBIOS Centre
-  job: "Six months’ training period, working on modelling fungal growth dynamics in a realistic soil environment."
-  city: Dundee, United Kingdom
-  description:
-    - working on modelling fungal growth dynamics.
-
+github: mhBrice
+orcid: 0000-0001-9505-1860
+mainskills: "Plant ecology, Landscape ecology, Urban ecology, Multivariate statistics, Spatial statistics"
 
 
 
 education:
-- years: 2012-2016
-  subject: Phd Thesis. \textit{Influence of biotic interactions on the geographic distribution of species.}
-  institute: Université du Québec À Rimouski, Canada / Université de Montpellier, France (Joint PhD).
-  honour: "Doctor of Philosophy in Ecology (grade: Excellent)"
-  # {Phd Thesis. My main project is to find elegant methods to introduce both interactions among species and evolution in species distribution models.}
-- years: 2008--2012
-  subject: Studies in Agricultural Engineering and M.Sc, Ecology and Evolution
-  institute: AgroParisTech, Paris, France
-  honour: Diploma of Agronomy Engineer and Master of Science in Ecology and Evolution
+- years: 2016-in progress
+  subject: Phd Thesis. \textit{Spatio-temporal response of trees in the boreal-temperate ecotone in the face of climate change.}
+  institute: Under the supervision of Pierre Legendre, Université de Montréal, & Marie-Josée Fortin, University of Toronto.
+  honour: "Cumulative mean 4.3/4.3"
 
+- years: 2013–2015
+  subject: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines
+  institute: Under the supervision of Stéphanie Pellerin, Institut de recherche en biologie végétale, Université de Montréal, & Monique Poulin, Université Laval.
+  honour: Mention of excellence. Cumulative mean 4.3/4.3
 
+- years: 2010–2013
+  subject: Honors bachelor degree in biological sciences, Ecology, biodiversity & evolution
+  institute: Honor project under the supervision of Stéphanie Pellerin, Institut de recherche en biologie végétale, Université de Montréal. Distribution et diversité des espèces lianescentes dans les écosystèmes urbains.
+  honour: Mention of excellence. Cumulative mean 4.27/4.3
 
 
 grants:
+- year: 2018
+  title: Excellence awards - Faculté des études supérieures et postdoctorales (FESP) of Université de Montréal
 - year: 2017
-  title: ACFAS award for the best joint PhD France-Canada (French laureate)
-  amount: "1,500$ CA"
+  title: Excellence awards - Faculté des études supérieures et postdoctorales (FESP) of Université de Montréal
 - year: 2016
-  title: Grant from the FRQNT (Fonds de Recherche du Québec Nature et Technologies)
-  amount: "20,000$ CA"
+  title: Excellence awards - Quebec Centre for Biodiversity Science (QCBS)
 - year: 2016
-  title: Excellence awards of the Quebec Centre for Biodiversity Science (QCBS)
-  amount: 1,500$ CA
-- year: 2015
-  title: Award for the second best oral presentation of the QCBS annual meeting
-  amount: "150$ CA"
-- year: 2015--2016
-  title: Grant from the Frontenac program (mobility program for joint Phd between France and Québec)
-  amount: 6,000$ CA/year
-- year: 2012--2015
-  title: Grant from the Ministry of Higher Education and Research of France
-  amount: 24 000\EUR$/year
-- year: 2012--2015
-  title: Grant from the FRQNT
-  amount: "4,000$ CA/year"
+  title: Excellence awards - Faculté des études supérieures et postdoctorales (FESP) of Université de Montréal
+- year: 2015-2018
+  title: Postgraduate Scholarships for doctoral research - Natural Sciences and Engineering Research Council of Canada (NSERC)
+- year: 2014–2015
+  title: Master's research scholarships - Fonds de Recherche du Québec Nature et Technologies (FRQNT)
+- year: 2013–2014
+  title: Alexander Graham Bell Canada Graduate Scholarships for master's research - Natural Sciences and Engineering Research Council of Canada (NSERC)
+- year: 2013
+  title: Dean excellence awards
+- year: 2013
+  title: Undergraduate Student Research Awards - Natural Sciences and Engineering Research Council of Canada (NSERC)
+- year: 2012
+  title: Undergraduate Student Research Awards - Natural Sciences and Engineering Research Council of Canada (NSERC)
+- year: 2011
+  title: Undergraduate Student Research Awards - Natural Sciences and Engineering Research Council of Canada (NSERC)
+- year: 2010
+  title: Entrance scholarship - Université de Montréal
+
+awards:
+- year: 2018
+  title: Best Presentation Award - Symposium de biologie, Université de Montréal
+- year: 2017
+  title: Governor General's Academic Medal
+- year: 2017
+  title: Best Presentation Award - Symposium de biologie, Université de Montréal
+- year: 2014
+  title: Best Presentation Award - Annual symposium of Quebec Center for Biodiversity Science (QCBS)
+- year: 2013
+  title: Best Presentation Award - Symposium de biologie, Université de Montréal
 
 
+experience:
 
+- years: "2017-in progress"
+  employer: Quebec Center for Biodiversity Science (QCBS)
+  job: "R workshop coordinator: organizing annual R symposium and R workshops for students from different universities in Quebec, revamping materials."
+
+- years: "2018"
+  employer: Nature Action Québec
+  job: "Consultant in biostatistic and ecology: analysing population trends of a rare plant (*Panax quinquefolius*) in Montérégie."
+
+- years: "2017-2018"
+  employer: Institut de recherche en biologie végétale
+  job: "Research asistant in biostatistic and ecology: various biodiversity analysis"
+
+- years: "2014"
+  employer: Institut national de la recherche scientifique
+  unit: "Centre Urbanisation Culture Société"
+  job: "Consultant in plant ecology: working on plant functional groups for a study on environmental equity."
+
+- years: "2013-2014"
+  employer: Société Québécoise de Phytotechnologie
+  job: "Administrative associate."
+
+- years: "2011-2013"
+  employer: Institut de recherche en biologie végétale
+  job: "Research asistant: lab and field work in plant ecology."
 
 
 teaching:
 - year: 2018
-  time: 3 hours
-  institute: Institut de recherche en biologie végétale, Montreal
-  description: "Use R as a geographic information system"
-- year: 2017
-  time: 3 days
-  institute: Centre de la Science de la Biodiversité du Québec (CSBQ)
-  description: Instructor in a meta-analyses workshop.
-- year: 2017
-  time: 5 days
-  institute: University of Sherbrooke
-  description: Instructor in the summer school "Bayesian Statistics for Ecologists".
-- year: 2016
-  time: 2 days
-  institute: Quebec Centre For Biodiversity Science
-  description: Organizing a two-days event on data vizualization in biodiversity science for graduate students.
-- year: 2014--2016
-  time: 16h/year
-  institute: Université du Québec à Rimouski
-  description: Presenter for the QCBS R workshop series.
-- year: 2014--2015
-  time: 1 day/year
-  institute: Université du Québec à Rimouski
-  description: Advanced R course on data visualization and graphics editing.
-- year: 2013--2015
-  time: 64h/year
-  institute: Université de Monpellier
-  description: Practical course for first year undergraduates in developmental biology.
-- year: 2014
-  time: 1 day
-  institute: Universidade Federal de Minas Gerais
-  description: Advanced R course on map editing.
+  time: 0.5 day
+  institute: Quebec Center for Biodiversity Science (QCBS)
+  description: Advanced R course on geospatial analysis and map editing.
 
+- years: "2016--2018"
+  time: 1 semester/year
+  institute: Université de Montréal
+  description: "Teaching assistant, Forest ecology course."
+
+- years: "2015--2017"
+  time: 1 semester/year
+  institute: Université de Montréal
+  description: "Teaching assistant, Biostatistic 2."
+
+- years: "2015--2017"
+  time: 6h/year
+  institute: Université de Montréal & Université du Québec à Montréal. Quebec Center for Biodiversity Science (QCBS)
+  description: "R workshop presenter. Multivariate analysis and Advance multivariate analysis."
+
+- years: "2014"
+  time: 1 semester/year
+  institute: Université de Montréal
+  description: "Teaching assistant, Biostatistic 1."
+
+- years: "2013--2014"
+  time: 1 semester/year
+  institute: Université de Montréal
+  description: "Teaching assistant, Plant ecology course."
+
+implication:
+- years: 2017
+  description: Organizing committee of the Congrès international d’écologie végétale, ECOVEG13.
+- years: 2016-2017
+  description: Scout leader for a group of 12-15 year-old girls.
+- years: 2016-2017
+  description: Organizing committee of Symposium de biologie de l'Université de Montréal.
 
 langage:
   - lang: French
     degree: mother tong
   - lang: English
     degree: fluency
-    certif: TOEIC (905)
-  - lang: Portugese
-    degree: fluency
-  - lang: German
-    degree: beginner
-  - lang: Chinese
+  - lang: Spanish
     degree: beginner
 ---
