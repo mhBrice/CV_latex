@@ -180,6 +180,8 @@ $endfor$
 \end{multicols}
 
 $endif$
+\end{multicols}
+
 
 % $if(intro)$
 % $intro$
@@ -239,7 +241,7 @@ $endif$
 $if(grants)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faTrophy ~ Bourses et récompenses}}}{
-  \section*{\textbf{\faTrophy ~ Grants & scholarships}}}
+  \section*{\textbf{\faTrophy ~ Grants \& scholarships}}}
 
 % \section*{Bourses}
 \noindent
@@ -252,7 +254,7 @@ $endif$
 $if(awards)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faTrophy ~ Prix et distinctions}}}{
-  \section*{\textbf{\faTrophy ~ Honors & Awards}}}
+  \section*{\textbf{\faTrophy ~ Honors \& Awards}}}
 
 % \section*{Bourses}
 \noindent
@@ -347,7 +349,7 @@ $endif$
 $if(report)$
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faCommentO ~ Mémoire et rapports}}}{
-  \section*{\textbf{\faCommentO ~ Thesis & Reports}}}
+  \section*{\textbf{\faCommentO ~ Thesis \& Reports}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]
@@ -372,8 +374,8 @@ $endif$
 %------------------
 $if(talks)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faComment ~ Présentations & affiches}}}{
-  \section*{\textbf{\faComment ~ Talks & posters}}}
+  \section*{\textbf{\faComment ~ Présentations et affiches}}}{
+  \section*{\textbf{\faComment ~ Talks \& posters}}}
 \noindent
 
 \begin{enumerate}[leftmargin=*]

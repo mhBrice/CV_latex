@@ -29,7 +29,7 @@ talks:
         date: 2018-08-01
         where: "New-Orleans, LA, USA"
 
-- title: Changements dans les communautés forestières du Québec méridional au cours des 4 dernières décennies
+- title: "Changements dans les communautés forestières du Québec méridional au cours des 4 dernières décennies"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -42,7 +42,7 @@ talks:
         date: 2018-03-23
         where: "Saint-Augustin-de-Desmaures, Qc, CAN"
 
-- title: Dynamique de transition des communautés forestières dans l’écotone boréal-tempéré
+- title: "Dynamique de transition des communautés forestières dans l’écotone boréal-tempéré"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -56,7 +56,7 @@ talks:
         date: 2018-03-28
         where: "Montréal, Qc"
 
-- title: Tendances démographiques dans la forêt tempérée nordique
+- title: "Tendances démographiques dans la forêt tempérée nordique"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -70,7 +70,7 @@ talks:
         date: 2017-09-10
         where: "Forêt Montmorency, Qc"
 
-- title: Is urbanization driving riparian forests toward taxonomic and functional homogenization?
+- title: "Is urbanization driving riparian forests toward taxonomic and functional homogenization?"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -83,7 +83,7 @@ talks:
         date: 2016-12-15
         where: "Montréal, Qc"
 
-- title: Disentangling environmental filtering and spatial processes structuring plant functional communities in urban riparian forests
+- title: "Disentangling environmental filtering and spatial processes structuring plant functional communities in urban riparian forests"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -96,7 +96,7 @@ talks:
         date: 2015-08-13
         where: "Baltimore, MD, USA"
 
-- title: Impact de l'urbanisation sur la distribution de la diversité spécifique et fonctionnelle dans les forêts riveraines
+- title: "Impact de l'urbanisation sur la distribution de la diversité spécifique et fonctionnelle dans les forêts riveraines"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -109,7 +109,7 @@ talks:
         date: 2015-08-13
         where: "Institut de Recherche en Biologie Végétale, Montréal, Qc"
 
-- title: The role of land use, flood variability and spatial processes in structuring functional plant communities in urban riparian forests
+- title: "The role of land use, flood variability and spatial processes in structuring functional plant communities in urban riparian forests"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -122,7 +122,7 @@ talks:
         date: 2014-12-12
         where: "Montréal, Qc"
 
-- title: Climbing towards the light: Liana distribution and diversity in urban ecosystems
+- title: "Climbing towards the light: Liana distribution and diversity in urban ecosystems"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -135,7 +135,7 @@ talks:
         date: 2014-03-07
         where: "Montréal, Qc"
 
-- title: Impact de l’urbanisation sur la distribution des espèces lianescentes
+- title: "Impact de l’urbanisation sur la distribution des espèces lianescentes"
   author:
   - family: Brice
     given: Marie-Hélène
@@ -148,6 +148,10 @@ talks:
         date: 2013-03-28
         where: "Montréal, Qc"
 
+
+
+
+
 tobepublished:
 - id: Deschenes2018
   type: article-journal
@@ -158,9 +162,9 @@ tobepublished:
       given: Marie-Hélène
     - family: Brisson
       given: Jacques
-    year: 2018
-    title: What factors influence tree mortality in an old growth mixed deciduous forest?
-    container-title: in prep
+  year: 2018
+  title: "What factors influence tree mortality in an old growth mixed deciduous forest?"
+  container-title: in prep
 
 - id: Kirk2018
   type: article-journal
@@ -171,9 +175,9 @@ tobepublished:
       given: Marie-Hélène
     - family: Bradstreet
       given: Michael S.
-    year: 2018
-    title: Βeta diversity changes in a Remnant Carolinian Forest: Evidence for Biotic Homogenization
-    container-title: in prep
+  year: 2018
+  title: "Βeta diversity changes in a Remnant Carolinian Forest: Evidence for Biotic Homogenization"
+  container-title: in prep
 
 - id: Brice2018
   type: article-journal
@@ -186,9 +190,11 @@ tobepublished:
       given: Pierre
     - family: Fortin
       given: Marie-Josée
-    year: 2018
-    title: Drivers of forest community changes in the boreal-temperate ecotone
-    container-title: in prep
+  year: 2018
+  title: "Drivers of forest community changes in the boreal-temperate ecotone"
+  container-title: in prep
+
+
 
 references:
 - id: delmas_analysing_2018
@@ -223,8 +229,8 @@ references:
     - family: Poisot
       given: Timothée
   year: 2018
-  title: Analysing ecological networks of species interactions: Analyzing ecological
-    networks
+  title: "Analysing ecological networks of species interactions: Analyzing ecological
+    networks"
   container-title: Biological Reviews
   URL: 'http://doi.wiley.com/10.1111/brv.12433'
   DOI: 10.1111/brv.12433
@@ -240,8 +246,8 @@ references:
     - family: Poulin
       given: Monique
   year: 2017
-  title: Does urbanization lead to taxonomic and functional homogenization in
-    riparian forests?
+  title: "Does urbanization lead to taxonomic and functional homogenization in
+    riparian forests?"
   container-title: Diversity and Distributions
   URL: 'http://doi.wiley.com/10.1111/ddi.12565'
   DOI: 10.1111/ddi.12565
@@ -256,7 +262,7 @@ references:
     - family: Poulin
       given: Monique
   year: 2016
-  title: Environmental filtering and spatial processes in urban riparian forests
+  title: "Environmental filtering and spatial processes in urban riparian forests"
   container-title: Journal of Vegetation Science
   URL: 'http://doi.wiley.com/10.1111/jvs.12425'
   DOI: 10.1111/jvs.12425
@@ -271,23 +277,31 @@ references:
     - family: Pellerin
       given: Stéphanie
   year: 2014
-  title: Liana distribution in response to urbanization in temperate forests
+  title: "Liana distribution in response to urbanization in temperate forests"
   container-title: Écoscience
   URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
   DOI: 10.2980/21-2-3692
 
+
+
+
+
+
 report:
-- title: Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec.
+
+- title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec."
   author:
     - family: Brice
       given: Marie-Hélène
   year: 2018
-- title: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines. Master thesis. Université de Montréal.
+
+- title: "Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines. Master thesis. Université de Montréal."
   author:
     - family: Brice
       given: Marie-Hélène
   year: 2015
-- title: Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal.
+
+- title: "Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal."
   author:
     - family: Brice
       given: Marie-Hélène
