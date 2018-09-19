@@ -24,7 +24,7 @@ mainskills: "Plant ecology, Landscape ecology, Urban ecology, Multivariate stati
 
 
 education:
-- years: 2016--in progress
+- years: 2016-in progress
   degree: Phd Thesis.
   subject: Spatio-temporal response of trees in the boreal-temperate ecotone in the face of climate change.
   institute: Université de Montréal, University of Toronto.
@@ -40,7 +40,7 @@ education:
 
 - years: 2010–-2013
   degree: Honors' bachelor degree in Biology. Ecology, biodiversity & evolution.
-  subject: Honor project":" Distribution et diversité des espèces lianescentes dans les écosystèmes urbains.
+  subject: Honor project: Distribution et diversité des espèces lianescentes dans les écosystèmes urbains.
   institute: Université de Montréal
   advisors: Stéphanie Pellerin
   honour: Mention of excellence. Cumulative mean 4.27/4.3
@@ -55,11 +55,11 @@ grants:
   title: Excellence awards - Quebec Centre for Biodiversity Science (QCBS)
 - year: 2016
   title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
-- year: 2015--2018
+- year: 2015-2018
   title: Postgraduate Scholarships for doctoral research - NSERC
-- year: 2014--2015
+- year: 2014-2015
   title: Master's research scholarships - Fonds de Recherche du Québec Nature et Technologies (FRQNT)
-- year: 2013--2014
+- year: 2013-2014
   title: Alexander Graham Bell Canada Graduate Scholarships for master's research - NSERC
 - year: 2013
   title: Dean excellence awards
@@ -87,59 +87,63 @@ awards:
 
 experience:
 
-- years: "2017--in progress"
+- years: "2017-in progress"
   employer: Quebec Center for Biodiversity Science (QCBS)
-  job: "R workshop coordinator: organizing annual R symposium and R workshops for students from different universities in Quebec, revamping materials."
+  job: R workshop coordinator
+  description: "Organize annual R symposium and R workshops for students from different universities in Quebec, revamping materials."
 
 - years: "2018"
-  employer: Nature Action Québec
-  job: "Consultant in biostatistic and ecology: analysing population trends of a rare plant (*Panax quinquefolius*) in Montérégie."
+  employer: "Nature Action Québec"
+  job: Consultant in biostatistic and ecology
+  description: "Analyse population trends of a rare plant (*Panax quinquefolius*) in Montérégie."
 
-- years: "2017--2018"
+- years: "2017-2018"
   employer: Institut de recherche en biologie végétale
-  job: "Research asistant in biostatistic and ecology: various biodiversity analysis"
+  job: Research asistant in biostatistic and ecology
+  description: "Perform various biodiversity analysis."
 
 - years: "2014"
-  employer: Institut national de la recherche scientifique
-  unit: "Centre Urbanisation Culture Société"
-  job: "Consultant in plant ecology: working on plant functional groups for a study on environmental equity."
+  employer: "Institut national de la recherche scientifique - Centre Urbanisation Culture Société"
+  job: Consultant in plant ecology
+  description: Work on plant functional groups for a study on environmental equity.
 
-- years: "2013--2014"
+- years: "2013-2014"
   employer: Société Québécoise de Phytotechnologie
   job: "Administrative associate."
 
-- years: "2011--2013"
+- years: "2011-2013"
   employer: Institut de recherche en biologie végétale
-  job: "Research asistant: lab and field work in plant ecology."
+  job: Research asistant
+  description: "Lab and field work in plant ecology."
 
 
 teaching:
-- year: 2018
+- years: 2018
   time: 0.5 day
   institute: Quebec Center for Biodiversity Science (QCBS)
   description: Advanced R course on geospatial analysis and map editing.
 
-- years: "2016--2018"
+- years: "2016-2018"
   time: 1 semester/year
   institute: Université de Montréal
   description: "Teaching assistant, Forest ecology course."
 
-- years: "2015--2017"
+- years: "2015-2017"
   time: 1 semester/year
   institute: Université de Montréal
   description: "Teaching assistant, Biostatistic 2."
 
-- years: "2015--2017"
+- years: "2015-2017"
   time: 6h/year
   institute: Université de Montréal & Université du Québec à Montréal. Quebec Center for Biodiversity Science (QCBS)
   description: "R workshop presenter. Multivariate analysis and Advance multivariate analysis."
 
-- years: "2014"
+- years: 2014
   time: 1 semester/year
   institute: Université de Montréal
   description: "Teaching assistant, Biostatistic 1."
 
-- years: "2013--2014"
+- years: "2013-2014"
   time: 1 semester/year
   institute: Université de Montréal
   description: "Teaching assistant, Plant ecology course."
@@ -147,9 +151,9 @@ teaching:
 implication:
 - years: 2017
   description: Organizing committee of the Congrès international d’écologie végétale, ECOVEG13.
-- years: 2016-2017
+- years: "2016-2017"
   description: Scout leader for a group of 12-15 year-old girls.
-- years: 2016-2017
+- years: "2016-2017"
   description: Organizing committee of Symposium de biologie de l'Université de Montréal.
 
 langage:

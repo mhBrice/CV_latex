@@ -9,15 +9,6 @@ $(pdfe) : $(srce)
 
 # $(pdff) : $(srcf)
 # 		pandoc $(filter-out $<,$^ ) -o $@ --template=$< $(FLAGS)
-# getpubli:
 
-# towebsite:
-# 	zip CV_KevCaz_eng.zip CV_KevCaz_eng.pdf
-# 	zip CV_KevCaz_fr.zip CV_KevCaz_fr.pdf
-# 	cp publi.yml ~/Github/Websites/kevcaz.github.io/data/publi.yaml
-# 	cp *.pdf ~/Github/Websites/kevcaz.github.io/static/pdf
-# 	cp *.zip ~/Github/Websites/kevcaz.github.io/static/zip
-# 	rm *.zip
-#
 clean :
 	rm $(pdfe) # $(pdff)

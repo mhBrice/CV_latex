@@ -116,7 +116,7 @@ $for(status)$
 $endfor$
 $endif$
 
-\begin{multicols}{3}
+\begin{multicols}{2}
 
 \vspace*{.1cm}
 
@@ -152,6 +152,7 @@ $if(skills)$
 
 \columnbreak
 
+\begin{multicols}{2}
 
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{\textbf{Compétences Scientifiques}}{\textbf{Scientific skills}}
@@ -173,7 +174,6 @@ $endfor$
 \vspace{-.4cm}
 
 
-
 $for(skills.program)$
 $skills.program$\\
 $endfor$
@@ -181,7 +181,7 @@ $endfor$
 
 $endif$
 \end{multicols}
-
+\end{multicols}
 
 % $if(intro)$
 % $intro$
@@ -198,10 +198,10 @@ $if(education)$
 
 \noindent
 $for(education)$
-\note{$education.years$}$if(education.degree)$, \textbf{$education.degree$}$endif$$education.institute$\\
-$if(education.subject)$, \emph{$education.subject$}$endif$\\
-$if(education.advisors)$, $education.advisors$$endif$\\
-$if(education.honour)$, $education.honour$$endif$\\[.14cm]
+\note{$education.years$}$if(education.degree)$\textbf{$education.degree$}$endif$ $education.institute$\\
+$if(education.subject)$ \emph{$education.subject$}$endif$\\
+$if(education.advisors)$ Advisors: $education.advisors$$endif$\\
+$if(education.honour)$ $education.honour$$endif$\\[.14cm]
 $endfor$
 $endif$
 
@@ -291,7 +291,7 @@ $for(tobepublished)$
   $endfor$
   $tobepublished.year$. $tobepublished.title$.
   \emph{$tobepublished.container-title$}.
-  $if(tobepublished.url)$ \href{$talks.url$}{talks.url}} $endif$
+  $if(tobepublished.url)$\\\href{$tobepublished.url$}{tobepublished.url}} $endif$
 }
 $endfor$
 \end{enumerate}
@@ -342,9 +342,10 @@ $for(talks)$
   $for(talks.author)$
     \ifthenelse{\equal{$talks.author.family$}{Brice}}{\textbf{$talks.author.family$ \fl{$talks.author.given$.}}}{$talks.author.family$ \fl{$talks.author.given$.}}.,
   $endfor$
-  $talks.conference.date$. $talks.title$.
-  $talks.conference.name$. $talks.conference.where$.
-  $if(talks.url)$ \href{$talks.url$}{$talks.url$} $endif$
+  $for(talks.conference)$
+    $talks.conference.date$. $talks.conference.name$. $talks.conference.where$.
+  $endfor$
+  $if(talks.url)$\\\href{$talks.url$}{$talks.url$} $endif$
 }
 $endfor$
 \end{enumerate}
@@ -361,9 +362,8 @@ $if(experience)$
 \noindent
 
 $for(experience)$
-\note{$experience.years$}
-$if(experience.unit)$$experience.unit$,$endif$ \textsc{$experience.employer$}\\
-\emph{$experience.job$}\\[.14cm]
+  \note{$experience.years$} $experience.job$, \textsc{$experience.employer$}
+  $if(experience.description)$\\\emph{$experience.description$}$endif$\\[.14cm]
 
 $endfor$
 $endif$
@@ -379,8 +379,8 @@ $if(teaching)$
 
 \noindent
 $for(teaching)$
-\note{$teaching.year$}$teaching.institute$ ($teaching.time$) \\
-\emph{$teaching.description$}\\[.14cm]
+  \note{$teaching.years$}$teaching.institute$ ($teaching.time$) \\
+  \emph{$teaching.description$}\\[.14cm]
 $endfor$
 $endif$
 
@@ -397,8 +397,8 @@ $if(implication)$
 
 \noindent
 $for(implication)$
-\note{$implication.year$}$implication.institute$ \\
-\emph{$implication.description$}\\[.14cm]
+  \note{$implication.years$}$implication.institute$ \\
+  \emph{$implication.description$}[.14cm]
 $endfor$
 $endif$
 

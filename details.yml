@@ -17,6 +17,7 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
 
 
+
 talks:
 - title: Long-term forest community changes in the boreal-temperate ecotone
   author:
@@ -233,7 +234,10 @@ references:
       given: Justin D.
     - family: Poisot
       given: Timothée
-  year: 2018
+  issued:
+    - year: 2018
+      month: 6
+      day: 20
   title: "Analysing ecological networks of species interactions: Analyzing ecological
     networks"
   container-title: Biological Reviews
@@ -250,7 +254,12 @@ references:
       given: Stéphanie
     - family: Poulin
       given: Monique
-  year: 2017
+  page: 828-840
+  volume: '23'
+  issue: '7'
+  issued:
+    - year: 2017
+      month: 7
   title: "Does urbanization lead to taxonomic and functional homogenization in
     riparian forests?"
   container-title: Diversity and Distributions
@@ -266,7 +275,12 @@ references:
       given: Stéphanie
     - family: Poulin
       given: Monique
-  year: 2016
+  page: 1023-1035
+  volume: '27'
+  issue: '5'
+  issued:
+    - year: 2016
+      month: 9
   title: "Environmental filtering and spatial processes in urban riparian forests"
   container-title: Journal of Vegetation Science
   URL: 'http://doi.wiley.com/10.1111/jvs.12425'
@@ -281,7 +295,12 @@ references:
       given: Alexandre
     - family: Pellerin
       given: Stéphanie
-  year: 2014
+  issued:
+    - year: 2014
+      month: 6
+  page: 104-113
+  volume: '21'
+  issue: '2'
   title: "Liana distribution in response to urbanization in temperate forests"
   container-title: Écoscience
   URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
@@ -294,20 +313,20 @@ references:
 
 report:
 
-- title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec."
+- title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec"
   author:
     - family: Brice
       given: Marie-Hélène
   year: 2018
 
-- title: "Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines. Master thesis. Université de Montréal."
+- title: "Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines. Master thesis. Université de Montréal"
   author:
     - family: Brice
       given: Marie-Hélène
   year: 2015
   url: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/13639"
 
-- title: "Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal."
+- title: "Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal"
   author:
     - family: Brice
       given: Marie-Hélène
