@@ -1,11 +1,16 @@
 ---
 skills:
   science:
-    - Plant ecology, Landscape ecology, Urban ecology, Multivariate statistics, Spatial statistics
+    - Plant ecology
+    - Landscape ecology
+    - Urban ecology
+    - Community ecology
+    - Functional ecology
+    - Multivariate statistics
+    - Spatial statistics
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ RMarkdown
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Markdown
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ RMarkdown
     - $\blacksquare \blacksquare \square \square \square$ HTML/CSS
     - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \square \square$ ArcGIS
@@ -300,6 +305,7 @@ report:
     - family: Brice
       given: Marie-Hélène
   year: 2015
+  url: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/13639"
 
 - title: "Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal."
   author:

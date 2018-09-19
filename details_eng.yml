@@ -14,6 +14,7 @@ address:
 - 10392 Jeanne-mance
 - H3L 3C1, Montréal
 - Québec (CAN)
+phone: 514-318-8945
 email: marie-helene.brice@umontreal.ca
 blog: insileco.github.io/
 github: mhBrice
@@ -23,45 +24,51 @@ mainskills: "Plant ecology, Landscape ecology, Urban ecology, Multivariate stati
 
 
 education:
-- years: 2016-in progress
-  subject: Phd Thesis. \textit{Spatio-temporal response of trees in the boreal-temperate ecotone in the face of climate change.}
-  institute: Under the supervision of Pierre Legendre, Université de Montréal, & Marie-Josée Fortin, University of Toronto.
+- years: 2016--in progress
+  degree: Phd Thesis.
+  subject: Spatio-temporal response of trees in the boreal-temperate ecotone in the face of climate change.
+  institute: Université de Montréal, University of Toronto.
+  advisors: Pierre Legendre & Marie-Josée Fortin
   honour: "Cumulative mean 4.3/4.3"
 
-- years: 2013–2015
-  subject: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines
-  institute: Under the supervision of Stéphanie Pellerin, Institut de recherche en biologie végétale, Université de Montréal, & Monique Poulin, Université Laval.
+- years: 2013–-2015
+  degree: Master Thesis.
+  subject: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines.
+  institute: Université de Montréal, Institut de recherche en biologie végétale & Université Laval
+  advisors: Stéphanie Pellerin & Monique Poulin
   honour: Mention of excellence. Cumulative mean 4.3/4.3
 
-- years: 2010–2013
-  subject: Honors bachelor degree in biological sciences, Ecology, biodiversity & evolution
-  institute: Honor project under the supervision of Stéphanie Pellerin, Institut de recherche en biologie végétale, Université de Montréal. Distribution et diversité des espèces lianescentes dans les écosystèmes urbains.
+- years: 2010–-2013
+  degree: Honors' bachelor degree in Biology. Ecology, biodiversity & evolution.
+  subject: Honor project":" Distribution et diversité des espèces lianescentes dans les écosystèmes urbains.
+  institute: Université de Montréal
+  advisors: Stéphanie Pellerin
   honour: Mention of excellence. Cumulative mean 4.27/4.3
 
 
 grants:
 - year: 2018
-  title: Excellence awards - Faculté des études supérieures et postdoctorales (FESP) of Université de Montréal
+  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
 - year: 2017
-  title: Excellence awards - Faculté des études supérieures et postdoctorales (FESP) of Université de Montréal
+  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
 - year: 2016
   title: Excellence awards - Quebec Centre for Biodiversity Science (QCBS)
 - year: 2016
-  title: Excellence awards - Faculté des études supérieures et postdoctorales (FESP) of Université de Montréal
-- year: 2015-2018
-  title: Postgraduate Scholarships for doctoral research - Natural Sciences and Engineering Research Council of Canada (NSERC)
-- year: 2014–2015
+  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
+- year: 2015--2018
+  title: Postgraduate Scholarships for doctoral research - NSERC
+- year: 2014--2015
   title: Master's research scholarships - Fonds de Recherche du Québec Nature et Technologies (FRQNT)
-- year: 2013–2014
-  title: Alexander Graham Bell Canada Graduate Scholarships for master's research - Natural Sciences and Engineering Research Council of Canada (NSERC)
+- year: 2013--2014
+  title: Alexander Graham Bell Canada Graduate Scholarships for master's research - NSERC
 - year: 2013
   title: Dean excellence awards
 - year: 2013
-  title: Undergraduate Student Research Awards - Natural Sciences and Engineering Research Council of Canada (NSERC)
+  title: Undergraduate Student Research Awards - NSERC
 - year: 2012
-  title: Undergraduate Student Research Awards - Natural Sciences and Engineering Research Council of Canada (NSERC)
+  title: Undergraduate Student Research Awards - NSERC
 - year: 2011
-  title: Undergraduate Student Research Awards - Natural Sciences and Engineering Research Council of Canada (NSERC)
+  title: Undergraduate Student Research Awards - NSERC
 - year: 2010
   title: Entrance scholarship - Université de Montréal
 
@@ -80,7 +87,7 @@ awards:
 
 experience:
 
-- years: "2017-in progress"
+- years: "2017--in progress"
   employer: Quebec Center for Biodiversity Science (QCBS)
   job: "R workshop coordinator: organizing annual R symposium and R workshops for students from different universities in Quebec, revamping materials."
 
@@ -88,7 +95,7 @@ experience:
   employer: Nature Action Québec
   job: "Consultant in biostatistic and ecology: analysing population trends of a rare plant (*Panax quinquefolius*) in Montérégie."
 
-- years: "2017-2018"
+- years: "2017--2018"
   employer: Institut de recherche en biologie végétale
   job: "Research asistant in biostatistic and ecology: various biodiversity analysis"
 
@@ -97,11 +104,11 @@ experience:
   unit: "Centre Urbanisation Culture Société"
   job: "Consultant in plant ecology: working on plant functional groups for a study on environmental equity."
 
-- years: "2013-2014"
+- years: "2013--2014"
   employer: Société Québécoise de Phytotechnologie
   job: "Administrative associate."
 
-- years: "2011-2013"
+- years: "2011--2013"
   employer: Institut de recherche en biologie végétale
   job: "Research asistant: lab and field work in plant ecology."
 

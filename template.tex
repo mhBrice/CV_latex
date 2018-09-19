@@ -108,8 +108,6 @@
 %--------------------------------
 \begin{document}
 
-\begin{multicols}{2}
-
 %--------------------------------
 {\Large \textbf{$name$}}\\[.2cm]
 $if(status)$
@@ -118,11 +116,12 @@ $for(status)$
 $endfor$
 $endif$
 
+\begin{multicols}{3}
 
 \vspace*{.1cm}
 
 $if(address)$
-\faHome \quad $address$
+\faHome \quad $address$\\
 $endif$
 
 $if(phone)$
@@ -146,9 +145,9 @@ OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}
 $endif$
 
 
-
+%------------------
 % SKILLS
-%--------------------------------
+%------------------
 $if(skills)$
 
 \columnbreak
@@ -159,25 +158,26 @@ $if(skills)$
 \vspace{-.4cm}
 
 \setlength{\columnsep}{0cm}
-\begin{multicols}{2}
+
 
 $for(skills.science)$
 $skills.science$\\
 $endfor$
-\end{multicols}
 
+
+\columnbreak
 
 \vspace{-.2cm}
 
 \ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Technical skills}}
 \vspace{-.4cm}
 
-\begin{multicols}{2}
+
 
 $for(skills.program)$
 $skills.program$\\
 $endfor$
-\end{multicols}
+
 
 $endif$
 \end{multicols}
@@ -187,56 +187,29 @@ $endif$
 % $intro$
 % $endif$
 
-
+%------------------
 % EDUCATION
 %------------------
 $if(education)$
-%------------------
+
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faGraduationCap ~ Formation}}}{
   \section*{\textbf{\faGraduationCap ~ Education}}}
 
 \noindent
 $for(education)$
-\note{$education.years$}$education.subject$$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\
-$if(education.honour)$\textbf{$education.honour$}$endif$\\[.14cm]
+\note{$education.years$}$if(education.degree)$, \textbf{$education.degree$}$endif$$education.institute$\\
+$if(education.subject)$, \emph{$education.subject$}$endif$\\
+$if(education.advisors)$, $education.advisors$$endif$\\
+$if(education.honour)$, $education.honour$$endif$\\[.14cm]
 $endfor$
 $endif$
 
-
-
-
-% EXPERIENCE
-%------------------
-$if(experience)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
-  \section*{\textbf{\faLineChart ~ Working experience}}}
-\noindent
-
-$for(experience)$
-\note{$experience.years$}
-$if(experience.unit)$$experience.unit$,$endif$ \textsc{$experience.employer$}\\
-$experience.city$\\
-\emph{$experience.job$}\\[.14cm]
-
-$endfor$
-$endif$
 
 
 
 %------------------
-$if(licenses)$
-\section*{Certifications}
-\noindent
-$for(licenses)$
-\note{$licenses.year$}$licenses.subject$$if(licenses.degree)$, $licenses.degree$$endif$\\
-\emph{$licenses.institute$}$if(licenses.city)$, $licenses.city$$endif$\\[.14cm]
-$endfor$
-$endif$
-
-
+% GRANTS
 %------------------
 $if(grants)$
 \ifthenelse{\equal{$lang$}{fr}}{
@@ -246,7 +219,7 @@ $if(grants)$
 % \section*{Bourses}
 \noindent
 $for(grants)$
-\note{$grants.year$} $grants.title$ \\$grants.amount$ \\[.14cm]
+\note{$grants.year$}$grants.title$\\[.14cm]
 $endfor$
 $endif$
 
@@ -259,30 +232,15 @@ $if(awards)$
 % \section*{Bourses}
 \noindent
 $for(awards)$
-\note{$awards.year$} $awards.title$ \\$awards.amount$ \\[.14cm]
+\note{$awards.year$}$awards.title$\\[.14cm]
 $endfor$
 $endif$
 
 %------------------
-$if(teaching)$
-%------------------
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faBank ~ Enseignement}}}{
-  \section*{\textbf{\faBank ~ Teaching}}}
-
-\noindent
-$for(teaching)$
-\note{$teaching.year$}$teaching.institute$ ($teaching.time$) \\
-\emph{$teaching.description$}\\[.14cm]
-$endfor$
-$endif$
-
-
-
-
+% REFERENCES
 %------------------
 $if(references)$
-%------------------
+
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faPencilSquareO ~ Articles publiés dans un journal à comité de lecture}}}{
   \section*{\textbf{\faPencilSquareO ~ Papers published in peer-reviewed journal}}}
@@ -360,7 +318,6 @@ $for(report)$
     \ifthenelse{\equal{$report.author.family$}{Brice}}{\textbf{$report.author.family$ \fl{$report.author.given$.}}}{$report.author.family$ \fl{$report.author.given$.}}.,
   $endfor$
   $report.year$. $report.title$.
-  \emph{$report.container-title$}.
   $if(report.url)$ \href{$report.url$}{$report.url$} $endif$
 }
 $endfor$
@@ -385,13 +342,50 @@ $for(talks)$
   $for(talks.author)$
     \ifthenelse{\equal{$talks.author.family$}{Brice}}{\textbf{$talks.author.family$ \fl{$talks.author.given$.}}}{$talks.author.family$ \fl{$talks.author.given$.}}.,
   $endfor$
-  $talks.year$. $talks.title$.
-  \emph{$talks.container-title$}.
+  $talks.conference.date$. $talks.title$.
+  $talks.conference.name$. $talks.conference.where$.
   $if(talks.url)$ \href{$talks.url$}{$talks.url$} $endif$
 }
 $endfor$
 \end{enumerate}
 $endif$
+
+
+%------------------
+% EXPERIENCE
+%------------------
+$if(experience)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
+  \section*{\textbf{\faLineChart ~ Working experience}}}
+\noindent
+
+$for(experience)$
+\note{$experience.years$}
+$if(experience.unit)$$experience.unit$,$endif$ \textsc{$experience.employer$}\\
+\emph{$experience.job$}\\[.14cm]
+
+$endfor$
+$endif$
+
+%------------------
+% TEACHING
+%------------------
+$if(teaching)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faBank ~ Enseignement}}}{
+  \section*{\textbf{\faBank ~ Teaching}}}
+
+\noindent
+$for(teaching)$
+\note{$teaching.year$}$teaching.institute$ ($teaching.time$) \\
+\emph{$teaching.description$}\\[.14cm]
+$endfor$
+$endif$
+
+
+
 
 
 %------------------
