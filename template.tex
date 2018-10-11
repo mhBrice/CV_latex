@@ -100,66 +100,66 @@
 
 
 
-
-
-
 %--------------------------------
 % DOCUMENT
 %--------------------------------
 \begin{document}
 
-%--------------------------------
+
 {\Large \textbf{$name$}}\\[.2cm]
 $if(status)$
 $for(status)$
-{\large{$status.title$}} \\
+{\large{$status.title$}}\\
 $endfor$
 $endif$
 
+\setlength{\columnsep}{-2cm}
 \begin{multicols}{2}
 
-\vspace*{.1cm}
-
 $if(address)$
-\faHome \quad $address$\\
+\faHome \quad 10392 Jeanne-Mance \\ \hspace*{.6cm} H3L 3C1 Montréal \\ \hspace*{.6cm} Qc, Canada\\
 $endif$
+
+\vspace{-15pt}
 
 $if(phone)$
-\faPhone \quad $phone$
+\faPhone \quad $phone$\\
 $endif$
+
+\vspace{-15pt}
 
 $if(email)$
-\faEnvelope \quad \href{mailto:$email$}{$email$}
+\faEnvelope \quad \href{mailto:$email$}{$email$}\\
 $endif$
 
-$if(website)$
-\faGlobe \quad \href{http://$blog$}{$blog$}
-$endif$
+\vspace{-15pt}
 
 $if(github)$
-\faGithub \quad \href{https://github.com/$github$}{$github$}
+\faGithub \quad \href{https://github.com/$github$}{$github$}\\
 $endif$
 
+\vspace*{-15pt}
+
 $if(orcid)$
-OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}
+OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}\\
 $endif$
 
 
 %------------------
 % SKILLS
 %------------------
-$if(skills)$
+
 
 \columnbreak
 
+\vspace{2cm}
+
+\setlength{\columnsep}{-1cm}
 \begin{multicols}{2}
 
 %------------------
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Compétences Scientifiques}}{\textbf{Scientific skills}}
-\vspace{-.4cm}
 
-\setlength{\columnsep}{0cm}
-
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Compétences Scientifiques}}{\textbf{Scientific skills}}\\
 
 $for(skills.science)$
 $skills.science$\\
@@ -170,22 +170,19 @@ $endfor$
 
 \vspace{-.2cm}
 
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Technical skills}}
-\vspace{-.4cm}
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Technical skills}}\\
 
+\vspace{-.08cm}
 
 $for(skills.program)$
 $skills.program$\\
 $endfor$
 
 
-$endif$
 \end{multicols}
 \end{multicols}
 
-% $if(intro)$
-% $intro$
-% $endif$
 
 %------------------
 % EDUCATION
@@ -206,8 +203,6 @@ $endfor$
 $endif$
 
 
-
-
 %------------------
 % GRANTS
 %------------------
@@ -226,8 +221,8 @@ $endif$
 %------------------
 $if(awards)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faTrophy ~ Prix et distinctions}}}{
-  \section*{\textbf{\faTrophy ~ Honors \& Awards}}}
+  \section*{\textbf{\faStar ~ Prix et distinctions}}}{
+  \section*{\textbf{\faStar ~ Honors \& Awards}}}
 
 % \section*{Bourses}
 \noindent
@@ -247,7 +242,7 @@ $if(references)$
 
 
 \noindent
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=0cm]
   $for(references)$
   \ifthenelse{\equal{$references.type$}{article-journal}}{
   \item{
@@ -271,18 +266,16 @@ $if(references)$
 \end{enumerate}
 $endif$
 
-
-
-\vspace{.5cm}
+\vspace{.2cm}
 %------------------
 $if(tobepublished)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
   \section*{\textbf{\faCogs ~ Articles soumis ou à soumettre très prochainement}}}{
-  \section*{\textbf{\faCogs ~ In Preparation / Submitted / Accepted articles}}}
+  \section*{\textbf{\faCogs ~ In Preparation}}}
 \noindent
 
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=0cm]
 
 $for(tobepublished)$
 \item{
@@ -295,22 +288,20 @@ $for(tobepublished)$
 }
 $endfor$
 \end{enumerate}
-
 $endif$
 
 
-
-\vspace{.5cm}
+\vspace{.2cm}
 %------------------
 % REPORT
 %------------------
 $if(report)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCommentO ~ Mémoire et rapports}}}{
-  \section*{\textbf{\faCommentO ~ Thesis \& Reports}}}
+  \section*{\textbf{\faBook ~ Mémoire et rapports}}}{
+  \section*{\textbf{\faBook ~ Thesis \& Reports}}}
 \noindent
 
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=0cm]
 
 $for(report)$
 \item{
@@ -318,32 +309,32 @@ $for(report)$
     \ifthenelse{\equal{$report.author.family$}{Brice}}{\textbf{$report.author.family$ \fl{$report.author.given$.}}}{$report.author.family$ \fl{$report.author.given$.}}.,
   $endfor$
   $report.year$. $report.title$.
-  $if(report.url)$ \href{$report.url$}{$report.url$} $endif$
+  $if(report.url)$ \\\href{$report.url$}{$report.url$} $endif$
 }
 $endfor$
 \end{enumerate}
 $endif$
 
 
-\vspace{.5cm}
+\vspace{.2cm}
 %------------------
 % TALKS
 %------------------
 $if(talks)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faComment ~ Présentations et affiches}}}{
-  \section*{\textbf{\faComment ~ Talks \& posters}}}
+  \section*{\textbf{\faCommentO ~ Présentations et affiches}}}{
+  \section*{\textbf{\faCommentO ~ Talks \& posters}}}
 \noindent
 
-\begin{enumerate}[leftmargin=*]
+\begin{enumerate}[leftmargin=0cm]
 
 $for(talks)$
 \item{
   $for(talks.author)$
     \ifthenelse{\equal{$talks.author.family$}{Brice}}{\textbf{$talks.author.family$ \fl{$talks.author.given$.}}}{$talks.author.family$ \fl{$talks.author.given$.}}.,
-  $endfor$
+  $endfor$ $talks.year$. $talks.title$.
   $for(talks.conference)$
-    $talks.conference.date$. $talks.conference.name$. $talks.conference.where$.
+    $talks.conference.name$. $talks.conference.where$.
   $endfor$
   $if(talks.url)$\\\href{$talks.url$}{$talks.url$} $endif$
 }
@@ -351,7 +342,7 @@ $endfor$
 \end{enumerate}
 $endif$
 
-
+\vspace{.2cm}
 %------------------
 % EXPERIENCE
 %------------------
@@ -362,11 +353,11 @@ $if(experience)$
 \noindent
 
 $for(experience)$
-  \note{$experience.years$} $experience.job$, \textsc{$experience.employer$}
+  \note{$experience.years$} \textbf{$experience.job$}, \textsc{$experience.employer$}
   $if(experience.description)$\\\emph{$experience.description$}$endif$\\[.14cm]
-
 $endfor$
 $endif$
+
 
 %------------------
 % TEACHING
@@ -379,13 +370,10 @@ $if(teaching)$
 
 \noindent
 $for(teaching)$
-  \note{$teaching.years$}$teaching.institute$ ($teaching.time$) \\
-  \emph{$teaching.description$}\\[.14cm]
+  \note{$teaching.years$}\textbf{$teaching.description$} $teaching.job$\\
+  $teaching.institute$ ($teaching.time$)\\[.14cm]
 $endfor$
 $endif$
-
-
-
 
 
 %------------------
@@ -397,8 +385,7 @@ $if(implication)$
 
 \noindent
 $for(implication)$
-  \note{$implication.years$}$implication.institute$ \\
-  \emph{$implication.description$}[.14cm]
+  \note{$implication.years$}\emph{$implication.description$}\\[.14cm]
 $endfor$
 $endif$
 

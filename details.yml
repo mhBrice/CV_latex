@@ -2,15 +2,15 @@
 skills:
   science:
     - Plant ecology
+    - Community ecology
     - Landscape ecology
     - Urban ecology
-    - Community ecology
     - Functional ecology
     - Multivariate statistics
     - Spatial statistics
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
-    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ RMarkdown
+    - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Markdown
     - $\blacksquare \blacksquare \square \square \square$ HTML/CSS
     - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \square \square$ ArcGIS
@@ -29,11 +29,12 @@ talks:
     given: Pierre
   - family: Fortin
     given: Marie-Josée
+  year: 2018
   conference:
       - name: "ESA Annual Meeting"
         url: "https://esa.org/neworleans/"
         date: 2018-08-01
-        where: "New-Orleans, LA, USA"
+        where: "New-Orleans, LA"
 
 - title: "Changements dans les communautés forestières du Québec méridional au cours des 4 dernières décennies"
   author:
@@ -43,10 +44,11 @@ talks:
     given: Pierre
   - family: Fortin
     given: Marie-Josée
+  year: 2018
   conference:
       - name: "Invited speaker at Flora Quebeca Meeting"
         date: 2018-03-23
-        where: "Saint-Augustin-de-Desmaures, Qc, CAN"
+        where: "Saint-Augustin-de-Desmaures, Qc"
 
 - title: "Dynamique de transition des communautés forestières dans l’écotone boréal-tempéré"
   author:
@@ -56,6 +58,7 @@ talks:
     given: Pierre
   - family: Fortin
     given: Marie-Josée
+  year: 2018
   conference:
       - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
         url: "http://www.symposium-bio.ca/"
@@ -70,6 +73,7 @@ talks:
     given: Pierre
   - family: Fortin
     given: Marie-Josée
+  year: 2017
   conference:
       - name: "Congrès international francophone en écologie végétale (ECOVEG13)"
         url: "https://www.ecoveg.esad.ulaval.ca/comite-organisateur.html"
@@ -84,6 +88,7 @@ talks:
     given: Stéphanie
   - family: Poulin
     given: Monique
+  year: 2016
   conference:
       - name: "Annual symposium of Quebec Center for Biodiversity Science (QCBS)"
         date: 2016-12-15
@@ -97,10 +102,11 @@ talks:
     given: Stéphanie
   - family: Poulin
     given: Monique
+  year: 2015
   conference:
       - name: "ESA Annual Meeting"
         date: 2015-08-13
-        where: "Baltimore, MD, USA"
+        where: "Baltimore, MD"
 
 - title: "Impact de l'urbanisation sur la distribution de la diversité spécifique et fonctionnelle dans les forêts riveraines"
   author:
@@ -110,6 +116,7 @@ talks:
     given: Stéphanie
   - family: Poulin
     given: Monique
+  year: 2015
   conference:
       - name: "Master exit seminar"
         date: 2015-08-13
@@ -123,6 +130,7 @@ talks:
     given: Stéphanie
   - family: Poulin
     given: Monique
+  year: 2014
   conference:
       - name: "Annual symposium of Quebec Center for Biodiversity Science (QCBS)"
         date: 2014-12-12
@@ -132,10 +140,11 @@ talks:
   author:
   - family: Brice
     given: Marie-Hélène
+  - family: Bergeron
+    given: Alexandre
   - family: Pellerin
     given: Stéphanie
-  - family: Poulin
-    given: Monique
+  year: 2014
   conference:
       - name: "Partnerships for the Living City: Promoting Urban Biodiversity - A Partnership with the Secretariat of the Convention on Biological Diversity"
         date: 2014-03-07
@@ -145,10 +154,11 @@ talks:
   author:
   - family: Brice
     given: Marie-Hélène
+  - family: Bergeron
+    given: Alexandre
   - family: Pellerin
-    given: Stéphanie
-  - family: Poulin
-    given: Monique
+    given: Stéphanie   
+  year: 2013
   conference:
       - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
         date: 2013-03-28
