@@ -19,6 +19,21 @@ skills:
 
 
 talks:
+- title: Dynamique de transition des communautés forestières dans l'écotone boréal-tempéré
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  year: 2018
+  conference:
+      - name: "Journée Modèle Québec - Ministère Forêts, Faune et Parcs"
+        url: "https://mffp.gouv.qc.ca/journee-modele-quebec/"
+        date: 2018-11-01
+        where: "Québec, Qc"
+          
 - title: Long-term forest community changes in the boreal-temperate ecotone
   author:
   - family: Brice
@@ -157,7 +172,7 @@ talks:
   - family: Bergeron
     given: Alexandre
   - family: Pellerin
-    given: Stéphanie   
+    given: Stéphanie
   year: 2013
   conference:
       - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
