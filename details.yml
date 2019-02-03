@@ -5,6 +5,7 @@ skills:
     - Community ecology
     - Landscape ecology
     - Urban ecology
+    - Plant identification
     - Functional ecology
     - Multivariate statistics
     - Spatial statistics
@@ -12,8 +13,8 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Markdown
     - $\blacksquare \blacksquare \square \square \square$ HTML/CSS
-    - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \square \square$ ArcGIS
+    - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
 
 
@@ -33,7 +34,7 @@ talks:
         url: "https://mffp.gouv.qc.ca/journee-modele-quebec/"
         date: 2018-11-01
         where: "Québec, Qc"
-          
+
 - title: Long-term forest community changes in the boreal-temperate ecotone
   author:
   - family: Brice

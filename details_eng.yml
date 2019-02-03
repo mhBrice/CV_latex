@@ -16,6 +16,7 @@ address:
 - Québec (CAN)
 phone: 514-318-8945
 email: marie-helene.brice@umontreal.ca
+website: mhBrice.github.io
 blog: insileco.github.io/
 github: mhBrice
 orcid: 0000-0001-9505-1860
@@ -90,7 +91,7 @@ experience:
 - years: "2017–"
   employer: Quebec Center for Biodiversity Science (QCBS)
   job: R workshop coordinator
-  description: "Organize annual R symposium and R workshops for students from different universities in Quebec, revamping materials."
+  description: "Organize annual R symposium and [R workshops](http://qcbs.ca/wiki/r) for students from different universities in Quebec, revamp online materials."
 
 - years: "2018"
   employer: "Nature Action Québec"
@@ -99,7 +100,7 @@ experience:
 
 - years: "2017–2018"
   employer: Institut de recherche en biologie végétale
-  job: Research asistant in biostatistic and ecology
+  job: Research assistant in biostatistic and ecology
   description: "Perform various biodiversity analysis."
 
 - years: "2014"
@@ -113,7 +114,7 @@ experience:
 
 - years: "2011–2013"
   employer: Institut de recherche en biologie végétale
-  job: Research asistant
+  job: Research assistant
   description: "Lab and field work in plant ecology."
 
 

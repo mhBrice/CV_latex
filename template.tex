@@ -117,28 +117,29 @@ $endif$
 \begin{multicols}{2}
 
 $if(address)$
-\faHome \quad 10392 Jeanne-Mance \\ \hspace*{.6cm} H3L 3C1 Montréal \\ \hspace*{.6cm} Qc, Canada\\
+\faHome \quad 10392 Jeanne-Mance \\ \hspace*{.6cm} H3L 3C1 Montréal, Qc
 $endif$
 
-\vspace{-15pt}
 
 $if(phone)$
-\faPhone \quad $phone$\\
+\faPhone \quad $phone$
 $endif$
 
-\vspace{-15pt}
 
 $if(email)$
-\faEnvelope \quad \href{mailto:$email$}{$email$}\\
+\faEnvelope \quad \href{mailto:$email$}{$email$}
 $endif$
 
-\vspace{-15pt}
+
+$if(website)$
+\faGlobe \quad \href{http://$website$}{$website$}
+$endif$
+
 
 $if(github)$
-\faGithub \quad \href{https://github.com/$github$}{$github$}\\
+\faGithub \quad \href{https://github.com/$github$}{$github$}
 $endif$
 
-\vspace*{-15pt}
 
 $if(orcid)$
 OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}\\
@@ -202,6 +203,37 @@ $if(education.honour)$ $education.honour$$endif$\\[.14cm]
 $endfor$
 $endif$
 
+%------------------
+% EXPERIENCE
+%------------------
+$if(experience)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
+  \section*{\textbf{\faLineChart ~ Working experience}}}
+\noindent
+
+$for(experience)$
+  \note{$experience.years$} \textbf{$experience.job$}, \textsc{$experience.employer$}
+  $if(experience.description)$\\\emph{$experience.description$}$endif$\\[.14cm]
+$endfor$
+$endif$
+
+
+%------------------
+% TEACHING
+%------------------
+$if(teaching)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faBank ~ Enseignement}}}{
+  \section*{\textbf{\faBank ~ Teaching}}}
+
+\noindent
+$for(teaching)$
+  \note{$teaching.years$}\textbf{$teaching.description$} $teaching.job$\\
+  $teaching.institute$ ($teaching.time$)\\[.14cm]
+$endfor$
+$endif$
 
 %------------------
 % GRANTS
@@ -343,37 +375,7 @@ $endfor$
 $endif$
 
 \vspace{.2cm}
-%------------------
-% EXPERIENCE
-%------------------
-$if(experience)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
-  \section*{\textbf{\faLineChart ~ Working experience}}}
-\noindent
 
-$for(experience)$
-  \note{$experience.years$} \textbf{$experience.job$}, \textsc{$experience.employer$}
-  $if(experience.description)$\\\emph{$experience.description$}$endif$\\[.14cm]
-$endfor$
-$endif$
-
-
-%------------------
-% TEACHING
-%------------------
-$if(teaching)$
-%------------------
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faBank ~ Enseignement}}}{
-  \section*{\textbf{\faBank ~ Teaching}}}
-
-\noindent
-$for(teaching)$
-  \note{$teaching.years$}\textbf{$teaching.description$} $teaching.job$\\
-  $teaching.institute$ ($teaching.time$)\\[.14cm]
-$endfor$
-$endif$
 
 
 %------------------
