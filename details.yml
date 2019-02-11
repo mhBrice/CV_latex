@@ -35,6 +35,21 @@ talks:
         date: 2018-11-01
         where: "Québec, Qc"
 
+- title: Facteurs de mortalité dans une forêt ancienne - Pourquoi certains arbres meurent-ils plus que d’autres?
+  author:
+  - family: Deschênes
+    given: Elise
+  - family: Brice
+    given: Marie-Hélène
+  - family: Brisson
+    given: Jacques
+  year: 2018
+  conference:
+      - name: "Journée Modèle Québec - Ministère Forêts, Faune et Parcs"
+        url: "https://mffp.gouv.qc.ca/journee-modele-quebec/"
+        date: 2018-11-01
+        where: "Québec, Qc"
+
 - title: Long-term forest community changes in the boreal-temperate ecotone
   author:
   - family: Brice
