@@ -235,33 +235,6 @@ $for(teaching)$
 $endfor$
 $endif$
 
-%------------------
-% GRANTS
-%------------------
-$if(grants)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faTrophy ~ Bourses et récompenses}}}{
-  \section*{\textbf{\faTrophy ~ Grants \& scholarships}}}
-
-% \section*{Bourses}
-\noindent
-$for(grants)$
-\note{$grants.year$}$grants.title$\\[.14cm]
-$endfor$
-$endif$
-
-%------------------
-$if(awards)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faStar ~ Prix et distinctions}}}{
-  \section*{\textbf{\faStar ~ Honors \& Awards}}}
-
-% \section*{Bourses}
-\noindent
-$for(awards)$
-\note{$awards.year$}$awards.title$\\[.14cm]
-$endfor$
-$endif$
 
 %------------------
 % REFERENCES
@@ -376,7 +349,33 @@ $endif$
 
 \vspace{.2cm}
 
+%------------------
+% GRANTS
+%------------------
+$if(grants)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faTrophy ~ Bourses et récompenses}}}{
+  \section*{\textbf{\faTrophy ~ Grants \& scholarships}}}
 
+% \section*{Bourses}
+\noindent
+$for(grants)$
+\note{$grants.year$}$grants.title$\\[.14cm]
+$endfor$
+$endif$
+
+%------------------
+$if(awards)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faStar ~ Prix et distinctions}}}{
+  \section*{\textbf{\faStar ~ Honors \& Awards}}}
+
+% \section*{Bourses}
+\noindent
+$for(awards)$
+\note{$awards.year$}$awards.title$\\[.14cm]
+$endfor$
+$endif$
 
 %------------------
 $if(implication)$

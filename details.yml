@@ -20,6 +20,21 @@ skills:
 
 
 talks:
+- title: Les perturbations modérées catalysent les transitions forestières dans l'écotone boréal-tempéré
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  year: 2019
+  conference:
+      - name: "Journée Modèle Québec - Ministère Forêts, Faune et Parcs"
+        url: "https://mffp.gouv.qc.ca/journee-modele-quebec-2019/"
+        date: 2019-10-30
+        where: "Québec, Qc"
+
 - title: Dynamique de transition des communautés forestières dans l'écotone boréal-tempéré
   author:
   - family: Brice
@@ -200,20 +215,25 @@ talks:
 
 
 tobepublished:
-- id: Deschenes2018
+- id: Brice2020
   type: article-journal
   author:
-    - family: Deschenes
-      given: Elise
     - family: Brice
       given: Marie-Hélène
-    - family: Brisson
-      given: Jacques
-  year: 2018
-  title: "What factors influence tree mortality in an old growth mixed deciduous forest?"
-  container-title: in prep
+    - family: Vissault
+      given: Steve
+    - family: Vieira
+      given: Willian
+    - family: Gravel
+      given: Dominique
+    - family: Legendre
+      given: Pierre
+    - family: Fortin
+      given: Marie-Josée
+  title: "Drivers of forest community changes in the boreal-temperate ecotone"
+  container-title: Submitted
 
-- id: Kirk2018
+- id: Kirk2020
   type: article-journal
   author:
     - family: Kirk
@@ -222,28 +242,100 @@ tobepublished:
       given: Marie-Hélène
     - family: Bradstreet
       given: Michael S.
-  year: 2018
   title: "Βeta diversity changes in a Remnant Carolinian Forest: Evidence for Biotic Homogenization"
-  container-title: in prep
+  container-title: In prep
 
-- id: Brice2018
-  type: article-journal
-  author:
-    - family: Brice
-      given: Marie-Hélène
-    - family: Cazelles
-      given: Kevin
-    - family: Legendre
-      given: Pierre
-    - family: Fortin
-      given: Marie-Josée
-  year: 2018
-  title: "Drivers of forest community changes in the boreal-temperate ecotone"
-  container-title: in prep
+
 
 
 
 references:
+- id: Cazelles_2019
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Bartley
+    given: Timothy
+  - family: Guzzo
+    given: Matthew M.
+  - family: Brice
+    given: Marie-Hélène
+  - family: MacDougall
+    given: Andrew S.
+  - family: Bennett
+    given: Joseph R.
+  - family: Esch
+    given: Ellen H.
+  - family: Kadoya
+    given: Taku
+  - family: Kelly
+    given: Jocelyn
+  - family: Matsuzaki
+    given: Shin-ichiro
+  - family: Nilsson
+    given: Karin A.
+  - family: McCann
+    given: Kevin S.
+  issued:
+  - year: 2019
+    month: 10
+  title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
+    communities are explained by gamefish movement and not climate change'
+  title-short: Homogenization of freshwater lakes
+  container: Global Change Biology
+  publisher: Wiley
+  URL: https://doi.org/10.1111%2Fgcb.14829
+  DOI: 10.1111/gcb.14829
+
+- id: Brice_2019
+  type: article-journal
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Cazelles
+    given: Kevin
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  editor:
+  - family: Boucher-Lalonde
+    given: Véronique
+  issued:
+  - year: 2019
+    month: 7
+  title: Disturbances amplify tree community responses to climate change in the temperateboreal
+    ecotone
+  container: Global Ecology and Biogeography
+  publisher: Wiley
+  page: 1668-1681
+  volume: '28'
+  issue: '11'
+  URL: https://doi.org/10.1111%2Fgeb.12971
+  DOI: 10.1111/geb.12971
+
+- id: deschenes_long-term_2019
+  type: article-journal
+  author:
+  - family: Deschênes
+    given: Élise
+  - family: Brice
+    given: Marie-Hélène
+  - family: Brisson
+    given: Jacques
+  issued:
+  - year: 2019
+    month: 9
+  title: Long-Term Impact of a Major Ice Storm on Tree Mortality in an Old-Growth Forest
+  container-title: Forest Ecology and Management
+  publisher: Elsevier
+  page: 386-394
+  volume: '448'
+  issue: '2019'
+  URL: https://doi.org/10.1016/j.foreco.2019.06.018
+  DOI: 10.1016/j.foreco.2019.06.018
+
 - id: delmas_analysing_2018
   type: article-journal
   author:

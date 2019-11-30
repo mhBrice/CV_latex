@@ -147,13 +147,14 @@ references:
       month: 9
       day: 17
 
-- id: delmas_analysing_2018
+- id: delmas_analysing_2019
   type: article-journal
-  title: >-
-    Analysing ecological networks of species interactions: Analyzing ecological
-    networks
+  title: Analysing ecological networks of species interactions
   container-title: Biological Reviews
-  source: Crossref
+  page: 16-36
+  volume: '94'
+  issue: '1'
+  source: Wiley Online Library
   abstract: >-
     Network approaches to ecological questions have been increasingly used,
     particularly in recent decades. The abstraction of ecological systems – such
@@ -175,7 +176,7 @@ references:
     information of different types, we then classify methods and metrics by the
     types of ecological questions that they can be used to answer from global to
     local scales, including methods for hypothesis testing and future
-    perspectives. Speciﬁcally, we show how the organization of species
+    perspectives. Specifically, we show how the organization of species
     interactions in a community yields different network structures (e.g., more
     or less dense, modular or nested), how different measures can be used to
     describe and quantify these emerging structures, and how to compare
@@ -183,12 +184,12 @@ references:
     illustrate metrics that can be used to describe and compare the functional
     and dynamic roles of species based on their position in the network and the
     organization of their interactions as well as associated new methods to test
-    the signiﬁcance of these results. Lastly, we describe potential fruitful
+    the significance of these results. Lastly, we describe potential fruitful
     avenues for new methodological developments to address novel ecological
     questions.
-  URL: 'http://doi.wiley.com/10.1111/brv.12433'
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12433'
   DOI: 10.1111/brv.12433
-  ISSN: '14647931'
+  ISSN: 1469-185X
   language: en
   author:
     - family: Delmas
@@ -199,8 +200,8 @@ references:
       given: Marie-Hélène
     - family: Burkle
       given: Laura A.
-    - family: Dalla Riva
-      given: Giulio V.
+    - family: Riva
+      given: Giulio V. Dalla
     - family: Fortin
       given: Marie-Josée
     - family: Gravel
@@ -220,12 +221,176 @@ references:
     - family: Poisot
       given: Timothée
   issued:
-    - year: 2018
-      month: 6
-      day: 20
+    - year: 2019
   accessed:
-    - year: 2018
+    - year: 2019
+      month: 1
+      day: 15
+
+- id: deschenes_long-term_2019
+  type: article-journal
+  title: >-
+    Long-term impact of a major ice storm on tree mortality in an old-growth
+    forest
+  container-title: Forest Ecology and Management
+  page: 386-394
+  volume: '448'
+  source: ScienceDirect
+  abstract: >-
+    In January 1998, eastern North America experienced the worst ice storm ever
+    recorded, which resulted in major damage to forests throughout the region.
+    However, we know little about the long-term effects of such a severe weather
+    event, or how its potential interaction with other biotic factors impacted
+    tree mortality. In this study, we investigated the long-term influence of
+    the 1998 ice storm on tree mortality in Boisé-des-Muir ecological reserve,
+    an old-growth forest in southern Québec (Canada). Mortality rates for four
+    out of the five tree species studied showed a striking increase a few years
+    after the ice storm, between 2000 and 2004. After this peak, tree mortality
+    rates remained higher than before 1998. These results indicate a lagged and
+    persistent effect of the ice storm on tree mortality and suggest that the
+    tree community of Boisé-des-Muir was more severely impacted than previously
+    reported. Tree species were differentially damaged by the ice storm, and
+    more than 25% of all tree species lost more than half their crown. Using a
+    Cox proportional hazard model, we evaluated the impact of different levels
+    of initial canopy damage from the ice storm on long-term tree mortality
+    while taking into account other important biotic factors, such as tree size,
+    tree density, indices of species-specific competition, and the presence of
+    the beech scale insect. Species differed in their response to the storm,
+    suggesting fundamental differences in sensitivity to extreme weather events.
+    In particular, eastern hop-hornbeam (Ostrya virginiana) and American beech
+    (Fagus grandifolia) were the species most vulnerable to the ice storm, and
+    severe canopy loss led to a large increase in mortality risk. These findings
+    suggest that the difference in tree survival following a natural disturbance
+    likely depends not only on the severity of the damage itself, but also on
+    species-specific ability to repair injuries and maintain physiological
+    processes. We also found that tree size and species-specific competition
+    influenced tree mortality significantly but did not interact with level of
+    canopy loss. Consequently, multiple biotic factors remain important to
+    explain mortality even after a major disturbance and should be considered
+    when evaluating tree mortality. Our results show that the impact of the ice
+    storm on tree mortality was species-specific, lagged and persisted for
+    several years after the disturbance, potentially resulting in long-term
+    compositional changes in the forest. This underscores the necessity of
+    conducting long-term monitoring studies to understand the complete impacts
+    of ice storms and other extreme climatic events on forests.
+  URL: 'http://www.sciencedirect.com/science/article/pii/S0378112719306346'
+  DOI: 10.1016/j.foreco.2019.06.018
+  ISSN: 0378-1127
+  author:
+    - family: Deschênes
+      given: Élise
+    - family: Brice
+      given: Marie-Hélène
+    - family: Brisson
+      given: Jacques
+  issued:
+    - year: 2019
       month: 9
-      day: 17
-  title-short: Analysing ecological networks of species interactions
+      day: 15
+  accessed:
+    - year: 2019
+      month: 6
+      day: 26
+  container-title-short: Forest Ecology and Management
+
+- id: cazelles_homogenization_2019-1
+  type: article-journal
+  title: >-
+    Homogenization of freshwater lakes: recent compositional shifts in fish
+    communities are explained by gamefish movement and not climate change
+  container-title: Global Change Biology
+  page: gcb.14829
+  source: DOI.org (Crossref)
+  abstract: >-
+    Globally, lake fish communities are being subjected to a range of
+    scale-dependent anthropogenic pressures, from climate change to
+    eutrophication, and from over-exploitation to species introductions. As a
+    consequence, the composition of these communities is being reshuffled, in
+    most cases leading to a surge in taxonomic similarity at the regional scale
+    termed homogenization. The drivers of homogenization remain unclear, which
+    may be a reflection of interactions between various environmental changes.
+    In this study, we investigate two potential drivers of the recent changes in
+    the composition of freshwater fish communities: recreational fishing and
+    climate change. Our results, derived from 524 lakes of Ontario, Canada
+    sampled in two periods (1965-1982 and 2008-2012), demonstrate that the main
+    contributors to homogenization are the dispersal of gamefish species, most
+    of which are large predators. Alternative explanations relating to lake
+    habitat (e.g., area, phosphorus) or variations in climate have limited
+    explanatory power. Our analysis suggests that humanassisted migration is the
+    primary driver of the observed compositional shifts, homogenizing freshwater
+    fish community among Ontario lakes and generating food webs dominated by
+    gamefish species.
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14829'
+  DOI: 10.1111/gcb.14829
+  ISSN: '1354-1013, 1365-2486'
+  title-short: Homogenization of freshwater lakes
+  language: en
+  author:
+    - family: Cazelles
+      given: Kevin
+    - family: Bartley
+      given: Timothy
+    - family: Guzzo
+      given: Matthew M.
+    - family: Brice
+      given: Marie‐Hélène
+    - family: MacDougall
+      given: Andrew S.
+    - family: Bennett
+      given: Joseph R.
+    - family: Esch
+      given: Ellen H.
+    - family: Kadoya
+      given: Taku
+    - family: Kelly
+      given: Jocelyn
+    - family: Matsuzaki
+      given: Shin‐ichiro
+    - family: Nilsson
+      given: Karin A.
+    - family: McCann
+      given: Kevin S.
+  issued:
+    - year: 2019
+      month: 9
+      day: 10
+  accessed:
+    - year: 2019
+      month: 9
+      day: 18
+  container-title-short: Glob Change Biol
+
+- id: brice_disturbances_2019
+  type: article-journal
+  title: >-
+    Disturbances amplify tree community responses to climate change in the
+    temperate–boreal ecotone
+  container-title: Global Ecology and Biogeography
+  page: geb.12971
+  source: DOI.org (Crossref)
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12971'
+  DOI: 10.1111/geb.12971
+  ISSN: '1466-822X, 1466-8238'
+  language: en
+  author:
+    - family: Brice
+      given: Marie‐Hélène
+    - family: Cazelles
+      given: Kevin
+    - family: Legendre
+      given: Pierre
+    - family: Fortin
+      given: Marie‐Josée
+  editor:
+    - family: Boucher‐Lalonde
+      given: Véronique
+  issued:
+    - year: 2019
+      month: 7
+      day: 9
+  accessed:
+    - year: 2019
+      month: 10
+      day: 14
+  container-title-short: Global Ecol Biogeogr
 ...
