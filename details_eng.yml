@@ -201,21 +201,22 @@ teaching:
   time: 0.5 day
   institute: R Symposium, Quebec Center for Biodiversity Science (QCBS)
   job: Instructor
-  description: "Introduction to the Rmarkdown universe."
-  url:        "https://insileco.github.io/ResearchDown/"
+  description: "[Introduction to the Rmarkdown universe](https://insileco.github.io/ResearchDown/)."
+  url: "https://insileco.github.io/ResearchDown/"
 
 - years: 2019
   time: 2 days
   job: Instructor
   institute:  Geotop, Université du Québec à Montréal
-  description: "Introduction to R."
-  url:        "https://insileco.github.io/IntroR/#1"
+  description: "[Introduction to R](https://insileco.github.io/IntroR/#1)."
+  url:  "https://insileco.github.io/IntroR/#1"
 
 - years: 2018
   time: 0.5 day
   institute: R Symposium, Quebec Center for Biodiversity Science (QCBS)
   job: Instructor
-  description: Advanced R course on geospatial analysis and map editing.
+  description: '[Advanced R course on geospatial analysis and map editing](https://mhbrice.github.io/Rspatial/Rspatial_script.html).'
+  url: "https://mhbrice.github.io/Rspatial/Rspatial_script.html"
 
 - years: "2015–2017"
   time: BIO2042
@@ -235,11 +236,6 @@ teaching:
   job: Teaching assistant
   description: "Biostatistic 1."
 
-- years: "2013–2014"
-  time: 1 semester/year
-  institute: Université de Montréal
-  job: Teaching assistant
-  description: "Plant ecology course."
 
 implication:
 - years: 2019

@@ -285,6 +285,9 @@ references:
   title-short: Homogenization of freshwater lakes
   container: Global Change Biology
   publisher: Wiley
+  page: 4222-4233
+  volume: '25'
+  issue: '12'
   URL: https://doi.org/10.1111%2Fgcb.14829
   DOI: 10.1111/gcb.14829
 
@@ -374,6 +377,9 @@ references:
   title: "Analysing ecological networks of species interactions: Analyzing ecological
     networks"
   container-title: Biological Reviews
+  page: 16-36
+  volume: '94'
+  issue: '1'  
   URL: 'http://doi.wiley.com/10.1111/brv.12433'
   DOI: 10.1111/brv.12433
 
