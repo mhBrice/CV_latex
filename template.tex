@@ -62,7 +62,7 @@
 % KC edits
 \setmainfont{$mainfont$}
 % Cool ampersand
-\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+\newcommand{\amper}{{\fontspec[Scale=.9]{$mainfont$}\selectfont\itshape\&}}
 
 % MARGIN NOTES
 %--------------------------------
@@ -93,9 +93,9 @@
   pdftitle={$name$'s CV},
   colorlinks, breaklinks, xetex, bookmarks,
   filecolor=black,
-  urlcolor=[rgb]{0,0.558,0.765},
+  urlcolor=[rgb]{0,0.35,0.65},
   linkcolor=[rgb]{0,0,0},
-  citecolor=[rgb]{0,0.558,0.765}
+  citecolor=[rgb]{0,0.35,0.65}
 }
 
 
@@ -113,7 +113,7 @@ $for(status)$
 $endfor$
 $endif$
 
-\setlength{\columnsep}{-2cm}
+\setlength{\columnsep}{-3cm}
 \begin{multicols}{2}
 
 $if(address)$
@@ -145,6 +145,11 @@ $if(orcid)$
 OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}\\
 $endif$
 
+$if(langage)$
+$for(langage)$
+\textbf{$langage.lang$}: $langage.degree$ \\
+$endfor$
+$endif$
 
 %------------------
 % SKILLS
@@ -155,12 +160,12 @@ $endif$
 
 \vspace{2cm}
 
-\setlength{\columnsep}{-1cm}
+\setlength{\columnsep}{0.1cm}
 \begin{multicols}{2}
 
 %------------------
 
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Compétences Scientifiques}}{\textbf{Scientific skills}}\\
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Compétences}}{\textbf{Scientific skills}}\\
 
 $for(skills.science)$
 $skills.science$\\
@@ -172,7 +177,7 @@ $endfor$
 \vspace{-.2cm}
 
 %------------------
-\ifthenelse{\equal{$lang$}{fr}}{\textbf{Programmation Scientifique}}{\textbf{Technical skills}}\\
+\ifthenelse{\equal{$lang$}{fr}}{\textbf{Informatique}}{\textbf{Technical skills}}\\
 
 \vspace{-.08cm}
 
@@ -198,23 +203,27 @@ $if(education)$
 $for(education)$
 \note{$education.years$}$if(education.degree)$\textbf{$education.degree$}$endif$ $education.institute$\\
 $if(education.subject)$ \emph{$education.subject$}$endif$\\
-$if(education.advisors)$ Advisors: $education.advisors$$endif$\\
-$if(education.honour)$ $education.honour$$endif$\\[.14cm]
+$if(education.advisors)$ \ifthenelse{\equal{$lang$}{fr}}{Superviseur.e.s:}{Advisors:} $education.advisors$$endif$\\
+$if(education.honour)$ $education.honour$$endif$\\
+$if(education.goal)$ $education.goal$$endif$\\[.14cm]
 $endfor$
 $endif$
+
+\vspace{-.08cm}
 
 %------------------
 % EXPERIENCE
 %------------------
 $if(experience)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faLineChart ~ Expérience Professionnelle}}}{
+  \section*{\textbf{\faLineChart ~ Expérience professionnelle}}}{
   \section*{\textbf{\faLineChart ~ Working experience}}}
 \noindent
 
 $for(experience)$
   \note{$experience.years$} \textbf{$experience.job$}, \textsc{$experience.employer$}
-  $if(experience.description)$\\\emph{$experience.description$}$endif$\\[.14cm]
+  $if(experience.description)$\\\emph{$experience.description$}$endif$
+  $if(experience.time)$ \ifthenelse{\equal{$lang$}{fr}}{Durée:}{Duration:} $experience.time$ $endif$\\[.14cm]
 $endfor$
 $endif$
 
@@ -231,7 +240,7 @@ $if(teaching)$
 \noindent
 $for(teaching)$
   \note{$teaching.years$}\textbf{$teaching.description$} $teaching.job$\\
-  $teaching.institute$ ($teaching.time$)\\[.14cm]
+  $teaching.institute$ $if(teaching.time)$ ($teaching.time$) $endif$\\[.14cm]
 $endfor$
 $endif$
 
@@ -248,6 +257,7 @@ $if(references)$
 
 \noindent
 \begin{enumerate}[leftmargin=0cm]
+  \begin{small}
   $for(references)$
   \ifthenelse{\equal{$references.type$}{article-journal}}{
   \item{
@@ -255,7 +265,7 @@ $if(references)$
   \ifthenelse{\equal{$references.author.given$}{M.-H.} \OR \equal{$references.author.given$}{Marie-Hélène} \OR \equal{$references.author.given$}{Marie-Helene} \AND \equal{$references.author.family$}{Brice}}{
   \textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
   $endfor$
-  $for(references.issued)$ $references.issued.year$$endfor$. $references.title$.
+  $for(references.issued)$ $references.issued.year$$endfor$. $references.title$
   \emph{$references.container-title$} \textbf{$references.volume$}$if(references.issue)$($references.issue$)$endif$$if(references.page)$:$references.page$$endif$.
   $if(references.URL)$\\\href{$references.URL$}{$references.URL$} $endif$
   }}{}
@@ -264,10 +274,11 @@ $if(references)$
   \ifthenelse{\equal{$references.type$}{manuscript}}{
   \item{
   $for(references.author)$
-  \ifthenelse{\equal{$references.author.family$}{Cazelles}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
+  \ifthenelse{\equal{$references.author.family$}{Brice}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
   $endfor$ $for(references.issued)$ $references.issued.year$$endfor$. $references.title$. \emph{Article soumis}
   }}{}
   $endfor$
+\end{small}
 \end{enumerate}
 $endif$
 
@@ -302,12 +313,12 @@ $endif$
 %------------------
 $if(report)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faBook ~ Mémoire et rapports}}}{
+  \section*{\textbf{\faBook ~ Thèses et rapports}}}{
   \section*{\textbf{\faBook ~ Thesis \& Reports}}}
 \noindent
 
 \begin{enumerate}[leftmargin=0cm]
-
+\begin{small}
 $for(report)$
 \item{
   $for(report.author)$
@@ -317,6 +328,7 @@ $for(report)$
   $if(report.url)$ \\\href{$report.url$}{$report.url$} $endif$
 }
 $endfor$
+\end{small}
 \end{enumerate}
 $endif$
 
@@ -332,6 +344,7 @@ $if(talks)$
 \noindent
 
 \begin{enumerate}[leftmargin=0cm]
+  \begin{small}
 
 $for(talks)$
 \item{
@@ -344,6 +357,7 @@ $for(talks)$
   $if(talks.url)$\\\href{$talks.url$}{$talks.url$} $endif$
 }
 $endfor$
+\end{small}
 \end{enumerate}
 $endif$
 
@@ -386,7 +400,7 @@ $if(implication)$
 
 \noindent
 $for(implication)$
-  \note{$implication.years$}\emph{$implication.description$}\\[.14cm]
+  \note{$implication.years$}{$implication.description$}\\[.14cm]
 $endfor$
 $endif$
 

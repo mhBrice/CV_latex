@@ -1,13 +1,80 @@
 ---
 references:
-- id: brice_environmental_2016
+- id: brice_disturbances_2019
+  accessed:
+    - year: 2020
+      month: 4
+      day: 1
+  author:
+    - family: Brice
+      given: Marie‐Hélène
+    - family: Cazelles
+      given: Kevin
+    - family: Legendre
+      given: Pierre
+    - family: Fortin
+      given: Marie‐Josée
+  container-title: Global Ecology and Biogeography
+  container-title-short: Global Ecol Biogeogr
+  DOI: 10.1111/geb.12971
+  editor:
+    - family: Boucher‐Lalonde
+      given: Véronique
+  ISSN: '1466-822X, 1466-8238'
+  issue: '11'
+  issued:
+    - year: 2019
+      month: 11
+  language: en
+  page: 1668-1681
+  source: DOI.org (Crossref)
+  title: >-
+    Disturbances amplify tree community responses to climate change in the
+    temperate–boreal ecotone
   type: article-journal
-  title: Environmental filtering and spatial processes in urban riparian forests
-  container-title: Journal of Vegetation Science
-  page: 1023-1035
-  volume: '27'
-  issue: '5'
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12971'
+  volume: '28'
+
+- id: brice_does_2017
+  abstract: >-
+    Aim: In urbanized areas, exotic invasions, native extinctions, and the
+    alteration of habitats and natural processes drive homogenization, which is
+    a form of biotic impoverishment. This study examines whether urbanization
+    and flooding induce homogenization of herbaceous communities in riparian
+    forests and quantifies the relationships between taxonomic and functional
+    β-­diversity.
+  accessed:
+    - year: 2018
+      month: 9
+      day: 17
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+    - family: Poulin
+      given: Monique
+  container-title: Diversity and Distributions
+  DOI: 10.1111/ddi.12565
+  editor:
+    - family: Pysek
+      given: Petr
+  ISSN: '13669516'
+  issue: '7'
+  issued:
+    - year: 2017
+      month: 7
+  language: en
+  page: 828-840
   source: Crossref
+  title: >-
+    Does urbanization lead to taxonomic and functional homogenization in
+    riparian forests?
+  type: article-journal
+  URL: 'http://doi.wiley.com/10.1111/ddi.12565'
+  volume: '23'
+
+- id: brice_environmental_2016
   abstract: >-
     Methods: Species plant composition was inventoried in 57 riparian forests
     located along a gradient of urbanization. To analyse plant communities in
@@ -39,10 +106,10 @@ references:
     shrubs and herbs due to the high turnover rate of the latter. Finally, our
     results showed the importance of dispersal along rivers for biodiversity
     even in fragmented urban landscapes.
-  URL: 'http://doi.wiley.com/10.1111/jvs.12425'
-  DOI: 10.1111/jvs.12425
-  ISSN: '11009233'
-  language: en
+  accessed:
+    - year: 2018
+      month: 9
+      day: 17
   author:
     - family: Brice
       given: Marie-Hélène
@@ -50,64 +117,25 @@ references:
       given: Stéphanie
     - family: Poulin
       given: Monique
+  container-title: Journal of Vegetation Science
+  DOI: 10.1111/jvs.12425
   editor:
     - family: Vandvik
       given: Vigdis
+  ISSN: '11009233'
+  issue: '5'
   issued:
     - year: 2016
       month: 9
-  accessed:
-    - year: 2018
-      month: 9
-      day: 17
-
-- id: brice_does_2017
-  type: article-journal
-  title: >-
-    Does urbanization lead to taxonomic and functional homogenization in
-    riparian forests?
-  container-title: Diversity and Distributions
-  page: 828-840
-  volume: '23'
-  issue: '7'
-  source: Crossref
-  abstract: >-
-    Aim: In urbanized areas, exotic invasions, native extinctions, and the
-    alteration of habitats and natural processes drive homogenization, which is
-    a form of biotic impoverishment. This study examines whether urbanization
-    and flooding induce homogenization of herbaceous communities in riparian
-    forests and quantifies the relationships between taxonomic and functional
-    β-­diversity.
-  URL: 'http://doi.wiley.com/10.1111/ddi.12565'
-  DOI: 10.1111/ddi.12565
-  ISSN: '13669516'
   language: en
-  author:
-    - family: Brice
-      given: Marie-Hélène
-    - family: Pellerin
-      given: Stéphanie
-    - family: Poulin
-      given: Monique
-  editor:
-    - family: Pysek
-      given: Petr
-  issued:
-    - year: 2017
-      month: 7
-  accessed:
-    - year: 2018
-      month: 9
-      day: 17
+  page: 1023-1035
+  source: Crossref
+  title: Environmental filtering and spatial processes in urban riparian forests
+  type: article-journal
+  URL: 'http://doi.wiley.com/10.1111/jvs.12425'
+  volume: '27'
 
 - id: brice_liana_2014
-  type: article-journal
-  title: Liana distribution in response to urbanization in temperate forests
-  container-title: Écoscience
-  page: 104-113
-  volume: '21'
-  issue: '2'
-  source: Crossref
   abstract: >-
     Urbanization results in ecosystem fragmentation, habitat loss, and altered
     environmental conditions that usually favour pioneer and ruderal species.
@@ -128,10 +156,10 @@ references:
     take advantage of high light availability on disturbed sites. Our results
     suggest that urbanization and ongoing climate changes will lead to an
     increase in liana abundance in temperate forests.
-  URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
-  DOI: 10.2980/21-2-3692
-  ISSN: '1195-6860, 2376-7626'
-  language: en
+  accessed:
+    - year: 2018
+      month: 9
+      day: 17
   author:
     - family: Brice
       given: Marie-Hélène
@@ -139,22 +167,121 @@ references:
       given: Alexandre
     - family: Pellerin
       given: Stéphanie
+  container-title: Écoscience
+  DOI: 10.2980/21-2-3692
+  ISSN: '1195-6860, 2376-7626'
+  issue: '2'
   issued:
     - year: 2014
       month: 6
+  language: en
+  page: 104-113
+  source: Crossref
+  title: Liana distribution in response to urbanization in temperate forests
+  type: article-journal
+  URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
+  volume: '21'
+
+- id: brice_moderate_2020
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Vissault
+      given: Steve
+    - family: Vieira
+      given: Willian
+    - family: Gravel
+      given: Dominique
+    - family: Legendre
+      given: Pierre
+    - family: Fortin
+      given: Marie-Josée
+  container-title: Global Change Biology
+  DOI: 10.1111/gcb.15143
+  ISSN: 1365-2486
+  issue: n/a
+  issued:
+    - year: 2020
+  language: en
+  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/gcb.15143'
+  source: Wiley Online Library
+  title: >-
+    Moderate disturbances accelerate forest transition dynamics under climate
+    change in the temperate-boreal ecotone of eastern North America
+  type: article-journal
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15143'
+  volume: n/a
+
+- id: cazelles_homogenization_2019-1
+  abstract: >-
+    Globally, lake fish communities are being subjected to a range of
+    scale-dependent anthropogenic pressures, from climate change to
+    eutrophication, and from over-exploitation to species introductions. As a
+    consequence, the composition of these communities is being reshuffled, in
+    most cases leading to a surge in taxonomic similarity at the regional scale
+    termed homogenization. The drivers of homogenization remain unclear, which
+    may be a reflection of interactions between various environmental changes.
+    In this study, we investigate two potential drivers of the recent changes in
+    the composition of freshwater fish communities: recreational fishing and
+    climate change. Our results, derived from 524 lakes of Ontario, Canada
+    sampled in two periods (1965-1982 and 2008-2012), demonstrate that the main
+    contributors to homogenization are the dispersal of gamefish species, most
+    of which are large predators. Alternative explanations relating to lake
+    habitat (e.g., area, phosphorus) or variations in climate have limited
+    explanatory power. Our analysis suggests that humanassisted migration is the
+    primary driver of the observed compositional shifts, homogenizing freshwater
+    fish community among Ontario lakes and generating food webs dominated by
+    gamefish species.
   accessed:
-    - year: 2018
+    - year: 2019
       month: 9
-      day: 17
+      day: 18
+  author:
+    - family: Cazelles
+      given: Kevin
+    - family: Bartley
+      given: Timothy
+    - family: Guzzo
+      given: Matthew M.
+    - family: Brice
+      given: Marie‐Hélène
+    - family: MacDougall
+      given: Andrew S.
+    - family: Bennett
+      given: Joseph R.
+    - family: Esch
+      given: Ellen H.
+    - family: Kadoya
+      given: Taku
+    - family: Kelly
+      given: Jocelyn
+    - family: Matsuzaki
+      given: Shin‐ichiro
+    - family: Nilsson
+      given: Karin A.
+    - family: McCann
+      given: Kevin S.
+  container-title: Global Change Biology
+  container-title-short: Glob Change Biol
+  DOI: 10.1111/gcb.14829
+  ISSN: '1354-1013, 1365-2486'
+  issue: '12'
+  issued:
+    - year: 2019
+      month: 9
+      day: 10
+  language: en
+  page: 4222-4233
+  source: DOI.org (Crossref)
+  title: >-
+    Homogenization of freshwater lakes: recent compositional shifts in fish
+    communities are explained by gamefish movement and not climate change
+  title-short: Homogenization of freshwater lakes
+  type: article-journal
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14829'
+  volume: '25'
 
 - id: delmas_analysing_2019
-  type: article-journal
-  title: Analysing ecological networks of species interactions
-  container-title: Biological Reviews
-  page: 16-36
-  volume: '94'
-  issue: '1'
-  source: Wiley Online Library
   abstract: >-
     Network approaches to ecological questions have been increasingly used,
     particularly in recent decades. The abstraction of ecological systems – such
@@ -187,10 +314,10 @@ references:
     the significance of these results. Lastly, we describe potential fruitful
     avenues for new methodological developments to address novel ecological
     questions.
-  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12433'
-  DOI: 10.1111/brv.12433
-  ISSN: 1469-185X
-  language: en
+  accessed:
+    - year: 2019
+      month: 1
+      day: 15
   author:
     - family: Delmas
       given: Eva
@@ -220,22 +347,21 @@ references:
       given: Justin D.
     - family: Poisot
       given: Timothée
+  container-title: Biological Reviews
+  DOI: 10.1111/brv.12433
+  ISSN: 1469-185X
+  issue: '1'
   issued:
     - year: 2019
-  accessed:
-    - year: 2019
-      month: 1
-      day: 15
+  language: en
+  page: 16-36
+  source: Wiley Online Library
+  title: Analysing ecological networks of species interactions
+  type: article-journal
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12433'
+  volume: '94'
 
 - id: deschenes_long-term_2019
-  type: article-journal
-  title: >-
-    Long-term impact of a major ice storm on tree mortality in an old-growth
-    forest
-  container-title: Forest Ecology and Management
-  page: 386-394
-  volume: '448'
-  source: ScienceDirect
   abstract: >-
     In January 1998, eastern North America experienced the worst ice storm ever
     recorded, which resulted in major damage to forests throughout the region.
@@ -273,9 +399,10 @@ references:
     compositional changes in the forest. This underscores the necessity of
     conducting long-term monitoring studies to understand the complete impacts
     of ice storms and other extreme climatic events on forests.
-  URL: 'http://www.sciencedirect.com/science/article/pii/S0378112719306346'
-  DOI: 10.1016/j.foreco.2019.06.018
-  ISSN: 0378-1127
+  accessed:
+    - year: 2019
+      month: 6
+      day: 26
   author:
     - family: Deschênes
       given: Élise
@@ -283,114 +410,54 @@ references:
       given: Marie-Hélène
     - family: Brisson
       given: Jacques
+  container-title: Forest Ecology and Management
+  container-title-short: Forest Ecology and Management
+  DOI: 10.1016/j.foreco.2019.06.018
+  ISSN: 0378-1127
   issued:
     - year: 2019
       month: 9
       day: 15
-  accessed:
-    - year: 2019
-      month: 6
-      day: 26
-  container-title-short: Forest Ecology and Management
-
-- id: cazelles_homogenization_2019-1
-  type: article-journal
+  page: 386-394
+  source: ScienceDirect
   title: >-
-    Homogenization of freshwater lakes: recent compositional shifts in fish
-    communities are explained by gamefish movement and not climate change
-  container-title: Global Change Biology
-  page: gcb.14829
-  source: DOI.org (Crossref)
-  abstract: >-
-    Globally, lake fish communities are being subjected to a range of
-    scale-dependent anthropogenic pressures, from climate change to
-    eutrophication, and from over-exploitation to species introductions. As a
-    consequence, the composition of these communities is being reshuffled, in
-    most cases leading to a surge in taxonomic similarity at the regional scale
-    termed homogenization. The drivers of homogenization remain unclear, which
-    may be a reflection of interactions between various environmental changes.
-    In this study, we investigate two potential drivers of the recent changes in
-    the composition of freshwater fish communities: recreational fishing and
-    climate change. Our results, derived from 524 lakes of Ontario, Canada
-    sampled in two periods (1965-1982 and 2008-2012), demonstrate that the main
-    contributors to homogenization are the dispersal of gamefish species, most
-    of which are large predators. Alternative explanations relating to lake
-    habitat (e.g., area, phosphorus) or variations in climate have limited
-    explanatory power. Our analysis suggests that humanassisted migration is the
-    primary driver of the observed compositional shifts, homogenizing freshwater
-    fish community among Ontario lakes and generating food webs dominated by
-    gamefish species.
-  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14829'
-  DOI: 10.1111/gcb.14829
-  ISSN: '1354-1013, 1365-2486'
-  title-short: Homogenization of freshwater lakes
-  language: en
-  author:
-    - family: Cazelles
-      given: Kevin
-    - family: Bartley
-      given: Timothy
-    - family: Guzzo
-      given: Matthew M.
-    - family: Brice
-      given: Marie‐Hélène
-    - family: MacDougall
-      given: Andrew S.
-    - family: Bennett
-      given: Joseph R.
-    - family: Esch
-      given: Ellen H.
-    - family: Kadoya
-      given: Taku
-    - family: Kelly
-      given: Jocelyn
-    - family: Matsuzaki
-      given: Shin‐ichiro
-    - family: Nilsson
-      given: Karin A.
-    - family: McCann
-      given: Kevin S.
-  issued:
-    - year: 2019
-      month: 9
-      day: 10
-  accessed:
-    - year: 2019
-      month: 9
-      day: 18
-  container-title-short: Glob Change Biol
-
-- id: brice_disturbances_2019
+    Long-term impact of a major ice storm on tree mortality in an old-growth
+    forest
   type: article-journal
-  title: >-
-    Disturbances amplify tree community responses to climate change in the
-    temperate–boreal ecotone
-  container-title: Global Ecology and Biogeography
-  page: geb.12971
-  source: DOI.org (Crossref)
-  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12971'
-  DOI: 10.1111/geb.12971
-  ISSN: '1466-822X, 1466-8238'
-  language: en
+  URL: 'http://www.sciencedirect.com/science/article/pii/S0378112719306346'
+  volume: '448'
+
+- id: pinceloup_vegetation_2020
+  accessed:
+    - year: 2020
+      month: 2
+      day: 21
   author:
+    - family: Pinceloup
+      given: Nicolas
+    - family: Poulin
+      given: Monique
     - family: Brice
-      given: Marie‐Hélène
-    - family: Cazelles
-      given: Kevin
-    - family: Legendre
-      given: Pierre
-    - family: Fortin
-      given: Marie‐Josée
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0229146
   editor:
-    - family: Boucher‐Lalonde
-      given: Véronique
+    - family: Zang
+      given: RunGuo
+  ISSN: 1932-6203
+  issue: '2'
   issued:
-    - year: 2019
-      month: 7
-      day: 9
-  accessed:
-    - year: 2019
-      month: 10
-      day: 14
-  container-title-short: Global Ecol Biogeogr
+    - year: 2020
+      month: 2
+      day: 13
+  language: en
+  page: e0229146
+  source: DOI.org (Crossref)
+  title: Vegetation changes in temperate ombrotrophic peatlands over a 35 year period
+  type: article-journal
+  URL: 'https://dx.plos.org/10.1371/journal.pone.0229146'
+  volume: '15'
 ...

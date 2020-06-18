@@ -2,14 +2,14 @@
 # Settings
 mainfont: Arial
 fontsize: 10pt
-lang: eng
+lang: fr
 geometry: letterpaper, left=40mm, right=20mm, top=20mm, bottom=20mm
 
 # Personal details
 name: Marie-Hélène Brice
 status:
-  - title: Phd candidate in forest ecology
-  - title: Master in urban ecology
+  - title: Candidate au doctorat en écologie forestière
+  - title: Maîtrise en écologie urbaine
 address:
 - 10392 Jeanne-mance
 - H3L 3C1, Montréal
@@ -20,18 +20,19 @@ website: mhBrice.github.io
 blog: insileco.github.io/
 github: mhBrice
 orcid: 0000-0001-9505-1860
-mainskills: "Plant ecology, Landscape ecology, Urban ecology, Multivariate statistics, Spatial statistics"
+mainskills: "Écologie végétale, Écologie du paysage, Écologie urbaine, Statistiques multivariées, Statistiques spatiales"
+
 
 skills:
   science:
-    - Plant ecology
-    - Community ecology
-    - Urban ecology
-    - Landscape ecology
-    - Plant identification
-    - Functional ecology
-    - Multivariate statistics
-    - Spatial statistics
+    - Écologie végétale
+    - Écologie des communautés
+    - Écologie urbaine
+    - Écologie du paysage
+    - Écologie fonctionnelle
+    - Botanique
+    - Analyses multivariées
+    - Analyses spatiales
   program:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ R
     - $\blacksquare \blacksquare \blacksquare \blacksquare \square$ Markdown
@@ -40,47 +41,55 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \square \square$ Inkscape
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
 
+
 education:
 - years: 2016–
-  degree: Phd Thesis.
-  subject: Spatio-temporal response of trees in the boreal-temperate ecotone in the face of climate change.
+  degree: Doctorat en écologie forestière.
+  subject: Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux.
   institute: Université de Montréal, University of Toronto.
   advisors: Pierre Legendre & Marie-Josée Fortin
-  honour: "Cumulative mean 4.3/4.3"
-  goal: Understand and quantify the combined effect of recent climate change and disturbances on forest community dynamics in Québec's boreal-temperate ecotone over the past 50 years.
+  honour: "Date prévue d'optention du diplôme 09-2020. Moyenne cumulée 4.3/4.3"
+  goal: Comprendre et quantifier l'effet combiné du changement climatique récent et des perturbations sur la dynamique des communautés forestières dans l'écotone boréal-tempéré du Québec au cours 50 dernières années.
 
 - years: 2013–2015
-  degree: Master Thesis.
+  degree: Maîtrise en écologie urbaine.
   subject: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines.
   institute: Université de Montréal, Institut de recherche en biologie végétale & Université Laval
   advisors: Stéphanie Pellerin & Monique Poulin
-  honour: Mention of excellence. Cumulative mean 4.3/4.3
-  goal: Understand and quantify the effects of urbanization on the functional composition and biotic homogenization in riparian forests of the Montreal Metropolitan Community.
+  honour: Mention d'excellence. Moyenne cumulée 4.3/4.3
+  goal: Comprendre et quantifier les effets de l'urbanisation sur la composition fonctionnelle et l'homogénéisation biotique dans les forêts riveraines de la Communauté métropilaine de Montréal.
 
 - years: 2010–2013
-  degree: Honors' bachelor degree in Biology. Ecology, biodiversity & evolution.
-  subject: "Honor project: Distribution et diversité des espèces lianescentes dans les écosystèmes urbains."
+  degree: Baccalauréat cheminement Honors en biologie - spécialisation écologie, biodiversité & évolution.
+  subject: "Projet Honor: Distribution et diversité des espèces lianescentes dans les écosystèmes urbains."
   institute: Université de Montréal
   advisors: Stéphanie Pellerin
-  honour: Mention of excellence. Cumulative mean 4.27/4.3
+  honour: Mention d'excellence. Moyenne cumulée 4.27/4.3
 
 
 grants:
-- year: 2018-2019
-  title: BIOS2 Fellow
+- year: 2018-2020
+  title: Stagiaire BIOS2
   amount: 10000$
   description: Computational Biodiversity Science and Services training program
-  begin: 2019-09-01
-  end: 2019-08-30
+  begin: 2018-09-01
+  end: 2020-08-30
 
-- year: 2019
-  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
+- year: 2016-2019
+  title: Bourses d'excellence - Faculté des études supérieures et postdoctorales, Université de Montréal
   amount: 9500$
   description: Bechtel
   begin: 2019-11-01
   end: 2019-11-30
 
-- year: 2019
+# - year: 2019
+#   title: Bourse d'excellence - Faculté des études supérieures et postdoctorales, Université de Montréal
+#   amount: 9500$
+#   description: Bechtel
+#   begin: 2019-11-01
+#   end: 2019-11-30
+
+- year: 2020
   title: Bourse de fin d'études doctorales - Faculté des études supérieures et postdoctorales, Université de Montréal
   amount: 7000$
   begin: 2019-09-01
@@ -92,184 +101,191 @@ grants:
   begin: 2019-04-01
   end: 2019-04-30
 
-- year: 2018
-  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
-  description: Catherine Fradette en sciences biologiques et en neurologie
-  amount: 5000$
+# - year: 2018
+#   title: Bourse d'excellence - Faculté des études supérieures et postdoctorales, Université de Montréal
+#   description: Catherine Fradette en sciences biologiques et en neurologie
+#   amount: 5000$
 
-- year: 2017
-  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
-  description: J.A. DeSève
-  amount: 8000$
+# - year: 2017
+#   title: Bourse d'excellence - Faculté des études supérieures et postdoctorales, Université de Montréal
+#   description: J.A. DeSève
+#   amount: 8000$
 
 - year: 2016
-  title: Excellence awards - Quebec Centre for Biodiversity Science (QCBS)
+  title: Bourse d'excellence - Centre de la Science de la Biodiversité du Québec (CSBQ)
   description: Cours en analyses spatiales des données
   amount: 2000$
 
-- year: 2016
-  title: Excellence awards - Faculté des études supérieures et postdoctorales, Université de Montréal
-  description: Bechtel
-  amount: 9000$
+# - year: 2016
+#   title: Bourse d'excellence - Faculté des études supérieures et postdoctorales, Université de Montréal
+#   description: Bechtel
+#   amount: 9000$
 
 - year: 2015–2018
-  title: Postgraduate Scholarships for doctoral research - NSERC
+  title: Bourses d'études supérieures pour la recherche au doctorat - CRSNG
   amount: 21000$/year
   begin: 2016-01-01
   end: 2018-12-01
 
 - year: 2014–2015
-  title: Master's research scholarships - Fonds de Recherche du Québec Nature et Technologies (FRQNT)
+  title: Bourse de maîtrise en recherche - Fonds de Recherche du Québec Nature et Technologies (FRQNT)
   amount: 15000$
   begin: 2014-09-01
   end: 2015-08-01
 
 - year: 2013–2014
-  title: Alexander Graham Bell Canada Graduate Scholarships for master's research - NSERC
+  title: Bourses d'études supérieures du Canada Alexander-Graham-Bell - CRSNG
   amount: 17500$
   begin: 2013-09-01
   end: 2014-08-01
 
 - year: 2013
-  title: Dean excellence awards
+  title: Bourse d'excellence du Doyen
   amount: 4000$
 
-- year: 2013
-  title: Undergraduate Student Research Awards - NSERC
+- year: 2011-2013
+  title: Bourses de recherche de 1er cycle - CRSNG
   amount: 5625$
   begin: 2013-05-01
   end: 2013-08-30
 
-- year: 2012
-  title: Undergraduate Student Research Awards - NSERC
-  amount: 5625$
-  begin: 2013-05-01
-  end: 2013-08-30
-
-- year: 2011
-  title: Undergraduate Student Research Awards - NSERC
-  amount: 5625$
-  begin: 2011-05-01
-  end: 2011-08-30
+# - year: 2013
+#   title: Bourses de recherche de 1er cycle - CRSNG
+#   amount: 5625$
+#   begin: 2013-05-01
+#   end: 2013-08-30
+#
+# - year: 2012
+#   title: Bourses de recherche de 1er cycle - CRSNG
+#   amount: 5625$
+#   begin: 2013-05-01
+#   end: 2013-08-30
+#
+# - year: 2011
+#   title: Bourses de recherche de 1er cycle - CRSNG
+#   amount: 5625$
+#   begin: 2011-05-01
+#   end: 2011-08-30
 
 - year: 2010
-  title: Entrance scholarship - Université de Montréal
+  title: Bourse d'entrée - Université de Montréal
   amount: 3000$
 
 awards:
 - year: 2018
-  title: Best Presentation Award - Symposium de biologie, Université de Montréal
+  title: Prix de la meilleure présentation - Symposium de biologie, Université de Montréal
 - year: 2017
-  title: Governor General's Academic Medal
+  title: Médaille académique du Gouverneur Général du Canada
 - year: 2017
-  title: Best Presentation Award - Congrès international francophone en écologie végétale (ECOVEG13)
+  title: Prix de la meilleure présentation - Congrès international francophone en écologie végétale (ECOVEG13)
 - year: 2014
-  title: Best Presentation Award - Annual symposium of Quebec Center for Biodiversity Science (QCBS)
+  title: Prix de la meilleure présentation - Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)
 - year: 2013
-  title: Best Presentation Award - Symposium de biologie, Université de Montréal
+  title: Prix de la meilleure présentation - Symposium de biologie, Université de Montréal
 
 
 experience:
 
 - years: "2020"
   employer: "Direction de la recherche forestière, Ministère des forêts, de la faune et des parcs (MFFP)"
-  job: "Research intership"
-  description: "Collaboration and discussion on various research projects about the recent and future effects of climate change on Quebec forests."
-  time: 2 weeks
+  job: "Stage de recherche"
+  description: "Collaboration et échange sur divers projets de recherche concernant les effets récents et futurs des changements climatiques sur les forêts du Québec méridional."
+  time: 2 semaines
+
 
 - years: "2017–"
-  employer: Quebec Center for Biodiversity Science (QCBS)
-  job: R workshop coordinator
-  description: "Organize annual R symposium and [R workshops](http://qcbs.ca/wiki/r) for students from different universities in Quebec, revamp online materials."
-  time: 3 years part time.
+  employer: Centre de la Science de la Biodiversité du Québec (CSBQ)
+  job: Coordonnatrice des ateliers en programmation R
+  description: "Organisation du symposium annuel en R et des [ateliers R](http://qcbs.ca/wiki/r) pour les étudiants dans les différentes universités du Québec, révision et maintenance du matériel pédagogique en ligne."
+  time: 3 ans à temps partiel.
 
 - years: "2018"
   employer: "Nature Action Québec"
-  job: Consultant in biostatistic and ecology
-  description: "Analyze population trends of a rare plant (*Panax quinquefolius*) in Montérégie."
-  time: 5 months part time.
+  job: Consultante en biostatistique et en écologie
+  description: "Analyse des tendances de population d'une plante rare (*Panax quinquefolius*) en Montérégie et recommandation pour le suivi."
+  time: 5 mois à temps partiel.
 
 - years: "2017–2018"
   employer: Institut de recherche en biologie végétale
-  job: Research assistant in biostatistic and ecology
-  description: "Perform various biodiversity analysis."
-  time: 6 months part time
+  job: Assistante de recherche en biostatistique et écologie
+  description: "Réalisation d'analyses de la biodiversité pour différents projets de recherche."
+  time: 6 mois à temps partiel.
 
 - years: "2014"
   employer: "Institut national de la recherche scientifique (INRS)"
-  job: Consultant in plant ecology
-  description: Work on plant functional groups for a study on environmental equity.
-  time: 1 months part time
+  job: Consultante en écologie végétale
+  description: Travail sur les groupes fonctionnels des arbres urbains pour une étude sur l'équité environnementale.
+  time: 1 mois à temps partiel.
 
 - years: "2013–2014"
   employer: Société Québécoise de Phytotechnologie
-  job: "Administrative associate"
-  time: 1 year part time
+  job: "Assistante administrative"
+  time: 1 an à temps partiel
 
 - years: "2013"
-  employer: Arold Lavoie - Biologist, botanical consultant.
-  job: "Botanist"
-  description: Rare plant surveys.
-  time: 5 days
+  employer: Arold Lavoie - Biologiste, consultant en botanique et inspecteur de la flore.
+  job: "Botaniste"
+  description: Inventaires de plantes rares
+  time: 5 jours
 
 - years: "2011–2013"
   employer: Institut de recherche en biologie végétale
-  job: Research assistant
-  description: "Lab and field work in plant ecology."
-  time: 1 year (3 x 4 months)
+  job: Assistante de recherche en écologie végétale
+  description: "Travail de laboratoire et de terrain en écologie végétale (p. ex. inventaire de la végétation dans les forêts urbaines de Montréal et dans les mileux humides du Québec, analyse de sol, gestion de base de données)"
+  time: 1 an (3 x 4 mois).
 
 
 teaching:
 
 - years: "2015–2017, 2020"
-  time: 6h/year
-  institute: Université de Montréal, Université du Québec à Montréal & Université du Québec à Rimouski. Quebec Center for Biodiversity Science (QCBS)
-  job: R workshop presenter
-  description: "Multivariate analysis and Advance multivariate analysis."
+  time: 6h/année
+  institute: Université de Montréal, Université du Québec à Montréal et Université du Québec à Rimouski. Centre de la Science de la Biodiversité du Québec (CSBQ)
+  job: Instructrice
+  description: "Analyses multivariées et Analyses multivariées avancées."
 
 - years: "2016–2019"
-  time: BIO2703
+  time: BIO2703 - 4 x 90h
   institute: Université de Montréal
-  job: Teaching assistant
-  description: "Forest ecology course."
+  job: Auxiliaire d'enseignement. Excursions organisées dans différentes régions forestières du Québec méridional. Identification et écologie des espèces d'arbres et des principales communautés forestières du Québec.
+  description: "Stage d'écologie forestière."
 
 - years: "2013–2014, 2019"
-  time: BIO3753
+  time: BIO3753 - 3 x 120h
   institute: Université de Montréal
-  job: Teaching assistant
-  description: "Plant ecology course."
+  job: Auxiliaire d'enseignement. Méthodes d'échantillonnage en écologie végétale et analyse de la végétation.
+  description: "Stage d'écologie végétale."
 
 - years: 2019
-  time: 0.5 day
-  institute: R Symposium, Quebec Center for Biodiversity Science (QCBS)
-  job: Instructor
-  description: "[Introduction to the Rmarkdown universe](https://insileco.github.io/ResearchDown/)."
+  time: 0.5 jour
+  institute: Symposium R, Centre de la Science de la Biodiversité du Québec (CSBQ)
+  job: Instructrice
+  description: "[Introduction à l'univers Rmarkdown](https://insileco.github.io/ResearchDown/)."
   url: "https://insileco.github.io/ResearchDown/"
 
 - years: 2019
-  time: 2 days
-  job: Instructor
-  institute:  Geotop, Université du Québec à Montréal
-  description: "[Introduction to R](https://insileco.github.io/IntroR/#1)."
+  time: 2 jours
+  job: Instructrice
+  institute:  Géotop, Université du Québec à Montréal
+  description: "[Introduction à R](https://insileco.github.io/IntroR/#1)."
   url:  "https://insileco.github.io/IntroR/#1"
 
 - years: 2018
-  time: 0.5 day
-  institute: R Symposium, Quebec Center for Biodiversity Science (QCBS)
-  job: Instructor
-  description: '[Advanced R course on geospatial analysis and map editing](https://mhbrice.github.io/Rspatial/Rspatial_script.html).'
+  time: 0.5 jour
+  institute: Symposium R, Centre de la Science de la Biodiversité du Québec (CSBQ)
+  job: Instructrice
+  description: "[Cours avancé de R sur l'analyse géospatiale et l'édition de cartes](https://mhbrice.github.io/Rspatial/Rspatial_script.html)."
   url: "https://mhbrice.github.io/Rspatial/Rspatial_script.html"
 
 - years: "2015–2017"
-  time: BIO2042
+  time: BIO2042 - 3 x 60h
   institute: Université de Montréal
-  job: Teaching assistant
-  description: "Biostatistic 2."
+  job: Auxiliaire d'enseignement
+  description: "Biostatistique 2."
 
 - years: 2014
-  time: BIO2041
+  time: BIO2041 - 90 heures
   institute: Université de Montréal
-  job: Teaching assistant
+  job: Auxiliaire d'enseignement
   description: "Biostatistic 1."
 
 talks:
@@ -297,7 +313,7 @@ talks:
     given: Marie-Josée
   year: 2019
   conference:
-      - name: "Quebec Center of Biodiversity Science (QCBS) annual symposium"
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)"
         date: 2019-12-19
         where: "Montréal, Qc"
 
@@ -358,7 +374,7 @@ talks:
     given: Marie-Josée
   year: 2018
   conference:
-      - name: "Ecological Society of America annual meeting"
+      - name: "ESA Annual Meeting"
         url: "https://esa.org/neworleans/"
         date: 2018-08-01
         where: "New-Orleans, LA"
@@ -373,7 +389,7 @@ talks:
     given: Marie-Josée
   year: 2018
   conference:
-      - name: "Invited speaker at Flora Quebeca annual meeting"
+      - name: "Conférencière invitée au congrès de Flora Quebeca"
         date: 2018-03-23
         where: "Saint-Augustin-de-Desmaures, Qc"
 
@@ -387,7 +403,7 @@ talks:
     given: Marie-Josée
   year: 2018
   conference:
-      - name: "Department of Biological Sciences Symposium - Université de Montréal"
+      - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
         url: "http://www.symposium-bio.ca/"
         date: 2018-03-28
         where: "Montréal, Qc"
@@ -417,7 +433,7 @@ talks:
     given: Monique
   year: 2016
   conference:
-      - name: "Quebec Center of Biodiversity Science (QCBS) annual symposium"
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)"
         date: 2016-12-15
         where: "Montréal, Qc"
 
@@ -431,7 +447,7 @@ talks:
     given: Monique
   year: 2015
   conference:
-      - name: "Ecological Sociaty of America annual meeting"
+      - name: "Ecological Sociaty of America Annual Meeting"
         date: 2015-08-13
         where: "Baltimore, MD"
 
@@ -445,7 +461,7 @@ talks:
     given: Monique
   year: 2015
   conference:
-      - name: "Master exit seminar"
+      - name: "Séminaire de maîtrise"
         date: 2015-08-13
         where: "Institut de Recherche en Biologie Végétale, Montréal, Qc"
 
@@ -459,7 +475,7 @@ talks:
     given: Monique
   year: 2014
   conference:
-      - name: "Quebec Center of Biodiversity Science (QCBS) annual symposium"
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)"
         date: 2014-12-12
         where: "Montréal, Qc"
 
@@ -487,29 +503,29 @@ talks:
     given: Stéphanie
   year: 2013
   conference:
-      - name: "Department of Biological Sciences Symposium - Université de Montréal"
+      - name: "Symposium du Département de sciences biologiques de l’Université de Montréal"
         date: 2013-03-28
         where: "Montréal, Qc"
 
 implication:
 - years: 2020
-  description: Community kitchen "FEED-back Ahuntsic-Cartierville". Revalorization and distribution of food collected from grocery stores.
+  description: Cuisine collective "FEED-back Ahuntsic-Cartierville". Revalorisation et distribution de denrées récupérées dans les épiceries.
 - years: 2019-2020
-  description: Citizen committee "VerRecycle" to implement glass recycling in Ahuntsic-Cartierville.
-- years: 2019
-  description: Environmental Comity of the Association des étudiants chercheurs en biologie de l'Université de Montréal (AECBUM).
+  description: Comité citoyen "VerRecycle" pour implementer le recyclage du verre à Ahuntsic-Cartierville.
+- years: 2019-2020
+  description: Comité Environnement de l'Association des étudiants chercheurs en biologie de l'Université de Montréal (AECBUM).
 - years: 2017
-  description: Organizing committee of the Congrès international d’écologie végétale, ECOVEG13.
+  description: Comité d'organisation du Congrès international d’écologie végétale, ECOVEG13.
 - years: "2016–2017"
-  description: Scout leader for a group of 12-15 year-old girls.
+  description: Cheffe Scout pour un groupe de filles de 12-15 ans.
 - years: "2016–2017"
-  description: Organizing committee of Symposium de biologie de l'Université de Montréal.
+  description: Comité d'organisation du Symposium de biologie de l'Université de Montréal.
 
 langage:
-  - lang: French
-    degree: mother tong
-  - lang: English
-    degree: fluency
-  - lang: Spanish
-    degree: beginner
+  - lang: Français
+    degree: langue maternelle
+  - lang: Anglais
+    degree: avancé
+  - lang: Espagnol
+    degree: débutant
 ---
