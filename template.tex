@@ -10,6 +10,8 @@
 \usepackage{xstring}
 \usepackage{ifthen}
 \usepackage{enumitem}
+% reverse numbering
+\usepackage{etaremune}
 \usepackage{fontawesome}
 % for the € symbole
 \usepackage{marvosym}
@@ -57,10 +59,13 @@
 \usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
+
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 % KC edits
-\setmainfont{$mainfont$}
+%\setmainfont{$mainfont$}
+\usepackage[default,light]{sourcesanspro}
+
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.9]{$mainfont$}\selectfont\itshape\&}}
 
@@ -69,7 +74,7 @@
 \usepackage{marginnote}
 \newcommand{\note}[1]{\marginnote{\small #1}}
 \renewcommand*{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{7pt}
+\setlength{\marginparsep}{1pt}
 \reversemarginpar
 
 % HEADINGS
@@ -85,7 +90,16 @@
 
 % PDF SETUP
 %--------------------------------
+% break url link
+\PassOptionsToPackage{hyphens}{url}
 \usepackage{hyperref}
+\usepackage{url}
+
+% url style
+\urlstyle{same}
+\renewcommand\UrlFont{\color[rgb]{0,0.35,0.65}}
+
+
 \hypersetup
 {
   pdfauthor={$name$},
@@ -97,6 +111,7 @@
   linkcolor=[rgb]{0,0,0},
   citecolor=[rgb]{0,0.35,0.65}
 }
+
 
 
 
@@ -116,30 +131,25 @@ $endif$
 \setlength{\columnsep}{-3cm}
 \begin{multicols}{2}
 
-$if(address)$
-\faHome \quad 10392 Jeanne-Mance \\ \hspace*{.6cm} H3L 3C1 Montréal, Qc
-$endif$
+%$if(address)$
+%\faHome \quad 10392 Jeanne-Mance \\ \hspace*{.6cm} H3L 3C1 Montréal, Qc
+%$endif$
 
-
-$if(phone)$
-\faPhone \quad $phone$
-$endif$
-
+%$if(phone)$
+%\faPhone \quad $phone$
+%$endif$
 
 $if(email)$
 \faEnvelope \quad \href{mailto:$email$}{$email$}
 $endif$
 
-
 $if(website)$
 \faGlobe \quad \href{http://$website$}{$website$}
 $endif$
 
-
 $if(github)$
 \faGithub \quad \href{https://github.com/$github$}{$github$}
 $endif$
-
 
 $if(orcid)$
 OrcID \quad \href{http://orcid.org/$orcid$}{$orcid$}\\
@@ -158,7 +168,7 @@ $endif$
 
 \columnbreak
 
-\vspace{2cm}
+%\vspace{2cm}
 
 \setlength{\columnsep}{0.1cm}
 \begin{multicols}{2}
@@ -174,7 +184,7 @@ $endfor$
 
 \columnbreak
 
-\vspace{-.2cm}
+%\vspace{-.2cm}
 
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{\textbf{Informatique}}{\textbf{Technical skills}}\\
@@ -204,29 +214,142 @@ $for(education)$
 \note{$education.years$}$if(education.degree)$\textbf{$education.degree$}$endif$ $education.institute$\\
 $if(education.subject)$ \emph{$education.subject$}$endif$\\
 $if(education.advisors)$ \ifthenelse{\equal{$lang$}{fr}}{Superviseur.e.s:}{Advisors:} $education.advisors$$endif$\\
-$if(education.honour)$ $education.honour$$endif$\\
-$if(education.goal)$ $education.goal$$endif$\\[.14cm]
+$if(education.honour)$ $education.honour$$endif$\\[.14cm]
 $endfor$
 $endif$
 
-\vspace{-.08cm}
+
+\vspace{.2cm}
 
 %------------------
 % EXPERIENCE
 %------------------
 $if(experience)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faLineChart ~ Expérience professionnelle}}}{
-  \section*{\textbf{\faLineChart ~ Working experience}}}
+  \section*{\textbf{\faBriefcase ~ Expérience professionnelle}}}{
+  \section*{\textbf{\faBriefcase ~ Working experience}}}
 \noindent
 
 $for(experience)$
-  \note{$experience.years$} \textbf{$experience.job$}, \textsc{$experience.employer$}
-  $if(experience.description)$\\\emph{$experience.description$}$endif$
-  $if(experience.time)$ \ifthenelse{\equal{$lang$}{fr}}{Durée:}{Duration:} $experience.time$ $endif$\\[.14cm]
+  \note{$experience.years$} \textbf{$experience.job$},
+  $if(experience.employer)$ $experience.employer$. $endif$ $if(experience.description)$ \emph{$experience.description$}$endif$\\[.14cm]
 $endfor$
 $endif$
 
+%%% $if(experience.time)$ \ifthenelse{\equal{$lang$}{fr}}{Durée:}{Duration:} $experience.time$ $endif$
+
+%------------------
+% REFERENCES
+%------------------
+$if(references)$
+
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faPencilSquareO ~ Articles publiés dans des revues à comité de lecture}}}{
+  \section*{\textbf{\faPencilSquareO ~ Papers published in peer-reviewed journal}}}
+
+
+\noindent
+\begin{etaremune}[leftmargin=0cm]
+
+  $for(references)$
+  \ifthenelse{\equal{$references.type$}{article-journal}}{
+  \item{
+  $for(references.author)$
+  \ifthenelse{\equal{$references.author.given$}{M.-H.} \OR \equal{$references.author.given$}{Marie-Hélène} \OR \equal{$references.author.given$}{Marie-Helene} \AND \equal{$references.author.family$}{Brice}}{
+  \textbf{$references.author.family$ M.-H.}}{$references.author.family$ \fl{$references.author.given$}.},
+  $endfor$
+  $for(references.issued)$ $references.issued.year$$endfor$. $references.title$
+  \emph{$references.container-title$} $references.volume$$if(references.issue)$($references.issue$)$endif$$if(references.page)$:$references.page$$endif$.
+  $if(references.URL)$\href{$references.URL$}{\url{$references.URL$}} $endif$
+  }}{}
+  $endfor$
+
+\end{etaremune}
+$endif$
+
+\vspace{.2cm}
+%------------------
+$if(tobepublished)$
+%------------------
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faCogs ~ Articles en préparation}}}{
+  \section*{\textbf{\faCogs ~ Submitted}}}
+\noindent
+
+\begin{etaremune}[leftmargin=0cm]
+
+$for(tobepublished)$
+\item{
+  $for(tobepublished.author)$
+    \ifthenelse{\equal{$tobepublished.author.family$}{Brice}}{\textbf{$tobepublished.author.family$ M.-H.}}{$tobepublished.author.family$ \fl{$tobepublished.author.given$}.},
+  $endfor$
+  $tobepublished.status$.
+  $tobepublished.title$
+  \emph{$tobepublished.container-title$}.
+  $if(tobepublished.url)$\\\href{$tobepublished.url$}{tobepublished.url}} $endif$
+}
+$endfor$
+
+\end{etaremune}
+$endif$
+
+
+\vspace{.2cm}
+%------------------
+% REPORT
+%------------------
+$if(report)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faBook ~ Thèses et rapports}}}{
+  \section*{\textbf{\faBook ~ Thesis \& Reports}}}
+\noindent
+
+\begin{etaremune}[leftmargin=0cm]
+
+$for(report)$
+\item{
+  $for(report.author)$
+    \ifthenelse{\equal{$report.author.family$}{Brice}}{\textbf{$report.author.family$ M.-H.}}{$report.author.family$ \fl{$report.author.given$.}},
+  $endfor$
+  $report.year$. $report.title$.
+  $if(report.url)$ \href{$report.url$}{\url{$report.url$}} $endif$
+}
+$endfor$
+
+\end{etaremune}
+$endif$
+
+
+\vspace{.2cm}
+
+
+%------------------
+% TALKS
+%------------------
+$if(talks)$
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{\faCommentO ~ Présentations}}}{
+  \section*{\textbf{\faCommentO ~ Talks \& posters}}}
+\noindent
+
+\begin{etaremune}[leftmargin=0cm]
+
+$for(talks)$
+\item{
+  $for(talks.author)$
+    \ifthenelse{\equal{$talks.author.family$}{Brice}}{\textbf{$talks.author.family$ M.-H.}}{$talks.author.family$ \fl{$talks.author.given$.}},
+  $endfor$ $talks.year$. $talks.title$.
+  $for(talks.conference)$
+    $talks.conference.name$. $talks.conference.where$.
+  $endfor$
+  $if(talks.url)$\\\href{$talks.url$}{$talks.url$} $endif$
+}
+$endfor$
+
+\end{etaremune}
+$endif$
+
+\vspace{.2cm}
 
 %------------------
 % TEACHING
@@ -244,124 +367,19 @@ $for(teaching)$
 $endfor$
 $endif$
 
-
 %------------------
-% REFERENCES
+% MENTORING
 %------------------
-$if(references)$
-
+$if(mentoring)$
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faPencilSquareO ~ Articles publiés dans un journal à comité de lecture}}}{
-  \section*{\textbf{\faPencilSquareO ~ Papers published in peer-reviewed journal}}}
-
+  \section*{\textbf{\faLineChart ~ Supervision}}}{
+  \section*{\textbf{\faLineChart ~ Mentoring}}}
 
 \noindent
-\begin{enumerate}[leftmargin=0cm]
-  \begin{small}
-  $for(references)$
-  \ifthenelse{\equal{$references.type$}{article-journal}}{
-  \item{
-  $for(references.author)$
-  \ifthenelse{\equal{$references.author.given$}{M.-H.} \OR \equal{$references.author.given$}{Marie-Hélène} \OR \equal{$references.author.given$}{Marie-Helene} \AND \equal{$references.author.family$}{Brice}}{
-  \textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
+$for(mentoring)$
+    \note{$mentoring.years$}\textbf{$mentoring.name$}, $mentoring.institute$, $mentoring.advisors$ \\[.14cm]
   $endfor$
-  $for(references.issued)$ $references.issued.year$$endfor$. $references.title$
-  \emph{$references.container-title$} \textbf{$references.volume$}$if(references.issue)$($references.issue$)$endif$$if(references.page)$:$references.page$$endif$.
-  $if(references.URL)$\\\href{$references.URL$}{$references.URL$} $endif$
-  }}{}
-  $endfor$
-  $for(references)$
-  \ifthenelse{\equal{$references.type$}{manuscript}}{
-  \item{
-  $for(references.author)$
-  \ifthenelse{\equal{$references.author.family$}{Brice}}{\textbf{$references.author.family$ \fl{$references.author.given$.}}}{$references.author.family$ \fl{$references.author.given$.}}.,
-  $endfor$ $for(references.issued)$ $references.issued.year$$endfor$. $references.title$. \emph{Article soumis}
-  }}{}
-  $endfor$
-\end{small}
-\end{enumerate}
-$endif$
-
-\vspace{.2cm}
-%------------------
-$if(tobepublished)$
-%------------------
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCogs ~ Articles soumis ou à soumettre très prochainement}}}{
-  \section*{\textbf{\faCogs ~ In Preparation}}}
-\noindent
-
-\begin{enumerate}[leftmargin=0cm]
-
-$for(tobepublished)$
-\item{
-  $for(tobepublished.author)$
-    \ifthenelse{\equal{$tobepublished.author.family$}{Brice}}{\textbf{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}}{$tobepublished.author.family$ \fl{$tobepublished.author.given$.}}.,
-  $endfor$
-  $tobepublished.year$. $tobepublished.title$.
-  \emph{$tobepublished.container-title$}.
-  $if(tobepublished.url)$\\\href{$tobepublished.url$}{tobepublished.url}} $endif$
-}
-$endfor$
-\end{enumerate}
-$endif$
-
-
-\vspace{.2cm}
-%------------------
-% REPORT
-%------------------
-$if(report)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faBook ~ Thèses et rapports}}}{
-  \section*{\textbf{\faBook ~ Thesis \& Reports}}}
-\noindent
-
-\begin{enumerate}[leftmargin=0cm]
-\begin{small}
-$for(report)$
-\item{
-  $for(report.author)$
-    \ifthenelse{\equal{$report.author.family$}{Brice}}{\textbf{$report.author.family$ \fl{$report.author.given$.}}}{$report.author.family$ \fl{$report.author.given$.}}.,
-  $endfor$
-  $report.year$. $report.title$.
-  $if(report.url)$ \\\href{$report.url$}{$report.url$} $endif$
-}
-$endfor$
-\end{small}
-\end{enumerate}
-$endif$
-
-
-\vspace{.2cm}
-%------------------
-% TALKS
-%------------------
-$if(talks)$
-\ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faCommentO ~ Présentations et affiches}}}{
-  \section*{\textbf{\faCommentO ~ Talks \& posters}}}
-\noindent
-
-\begin{enumerate}[leftmargin=0cm]
-  \begin{small}
-
-$for(talks)$
-\item{
-  $for(talks.author)$
-    \ifthenelse{\equal{$talks.author.family$}{Brice}}{\textbf{$talks.author.family$ \fl{$talks.author.given$.}}}{$talks.author.family$ \fl{$talks.author.given$.}}.,
-  $endfor$ $talks.year$. $talks.title$.
-  $for(talks.conference)$
-    $talks.conference.name$. $talks.conference.where$.
-  $endfor$
-  $if(talks.url)$\\\href{$talks.url$}{$talks.url$} $endif$
-}
-$endfor$
-\end{small}
-\end{enumerate}
-$endif$
-
-\vspace{.2cm}
+  $endif$
 
 %------------------
 % GRANTS
@@ -395,10 +413,19 @@ $endif$
 $if(implication)$
 %------------------
 \ifthenelse{\equal{$lang$}{fr}}{
-  \section*{\textbf{\faUsers ~ Implications sociales et communautaires}}}{
-  \section*{\textbf{\faUsers ~ Community involvement}}}
+  \section*{\textbf{\faUsers ~ Implication sociale \& professionnelle}}}{
+  \section*{\textbf{\faUsers ~ Community \& professional involvement}}}
 
 \noindent
+\ifthenelse{\equal{$lang$}{fr}}{
+  \textbf{Révision d'article}.
+  }{
+  \textbf{Review}.
+  }\\
+$for(reviewer)$
+{\emph{$reviewer$}}
+$endfor$
+
 $for(implication)$
   \note{$implication.years$}{$implication.description$}\\[.14cm]
 $endfor$

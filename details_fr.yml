@@ -1,36 +1,35 @@
 ---
 # Settings
-mainfont: Arial
-fontsize: 10pt
+mainfont: Arial # FiraSans extra light
+fontsize: 11pt
 lang: fr
-geometry: letterpaper, left=40mm, right=20mm, top=20mm, bottom=20mm
+geometry: letterpaper, left=35mm, right=20mm, top=20mm, bottom=20mm
 
 # Personal details
 name: Marie-Hélène Brice
 status:
-  - title: Candidate au doctorat en écologie forestière
+  - title: Doctorat en écologie forestière
   - title: Maîtrise en écologie urbaine
 address:
 - 10392 Jeanne-mance
 - H3L 3C1, Montréal
 - Québec (CAN)
 phone: 514-318-8945
-email: marie-helene.brice@umontreal.ca
+email: mariehbrice@outlook.com
 website: mhBrice.github.io
 blog: insileco.github.io/
 github: mhBrice
 orcid: 0000-0001-9505-1860
-mainskills: "Écologie végétale, Écologie du paysage, Écologie urbaine, Statistiques multivariées, Statistiques spatiales"
+mainskills: "Écologie forestière, Écologie du paysage, Écologie urbaine, Statistiques multivariées, Statistiques spatiales"
 
 
 skills:
   science:
-    - Écologie végétale
-    - Écologie des communautés
+    - Écologie forestière
     - Écologie urbaine
+    - Écologie des communautés
     - Écologie du paysage
     - Écologie fonctionnelle
-    - Botanique
     - Analyses multivariées
     - Analyses spatiales
   program:
@@ -43,24 +42,24 @@ skills:
 
 
 education:
-- years: 2016–
+- years: 2016–2020
   degree: Doctorat en écologie forestière.
   subject: Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux.
   institute: Université de Montréal, University of Toronto.
   advisors: Pierre Legendre & Marie-Josée Fortin
-  honour: "Date prévue d'optention du diplôme 09-2020. Moyenne cumulée 4.3/4.3"
-  goal: Comprendre et quantifier l'effet combiné du changement climatique récent et des perturbations sur la dynamique des communautés forestières dans l'écotone boréal-tempéré du Québec au cours 50 dernières années.
+  honour: "Mention exceptionnelle. Moyenne cumulée 4.3/4.3"
+  goal: Comprendre et quantifier l'effet combiné du changement climatique et des perturbations sur la dynamique des communautés forestières du Québec au cours 50 dernières années.
 
 - years: 2013–2015
   degree: Maîtrise en écologie urbaine.
   subject: Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines.
-  institute: Université de Montréal, Institut de recherche en biologie végétale & Université Laval
+  institute: Université de Montréal, IRBV & Université Laval
   advisors: Stéphanie Pellerin & Monique Poulin
   honour: Mention d'excellence. Moyenne cumulée 4.3/4.3
-  goal: Comprendre et quantifier les effets de l'urbanisation sur la composition fonctionnelle et l'homogénéisation biotique dans les forêts riveraines de la Communauté métropilaine de Montréal.
+  goal: Comprendre et quantifier l'effet de l'urbanisation sur la composition fonctionnelle et l'homogénéisation biotique dans les forêts riveraines de la région de Montréal.
 
 - years: 2010–2013
-  degree: Baccalauréat cheminement Honors en biologie - spécialisation écologie, biodiversité & évolution.
+  degree: Baccalauréat cheminement honor en biologie - écologie, biodiversité & évolution.
   subject: "Projet Honor: Distribution et diversité des espèces lianescentes dans les écosystèmes urbains."
   institute: Université de Montréal
   advisors: Stéphanie Pellerin
@@ -69,7 +68,7 @@ education:
 
 grants:
 - year: 2018-2020
-  title: Stagiaire BIOS2
+  title: Stagiaire du programme Sciences et services de la biodiversité computationnelle (BIOS2)
   amount: 10000$
   description: Computational Biodiversity Science and Services training program
   begin: 2018-09-01
@@ -112,7 +111,7 @@ grants:
 #   amount: 8000$
 
 - year: 2016
-  title: Bourse d'excellence - Centre de la Science de la Biodiversité du Québec (CSBQ)
+  title: Bourse d'excellence - Centre de la Science de la Biodiversité du Québec
   description: Cours en analyses spatiales des données
   amount: 2000$
 
@@ -179,22 +178,22 @@ awards:
 - year: 2017
   title: Prix de la meilleure présentation - Congrès international francophone en écologie végétale (ECOVEG13)
 - year: 2014
-  title: Prix de la meilleure présentation - Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)
+  title: Prix de la meilleure présentation - Symposium annuel du Centre de la Science de la Biodiversité du Québec
 - year: 2013
   title: Prix de la meilleure présentation - Symposium de biologie, Université de Montréal
 
 
 experience:
 
-- years: "2020"
+- years: "2020-..."
   employer: "Direction de la recherche forestière, Ministère des forêts, de la faune et des parcs (MFFP)"
-  job: "Stage de recherche"
-  description: "Collaboration et échange sur divers projets de recherche concernant les effets récents et futurs des changements climatiques sur les forêts du Québec méridional."
-  time: 2 semaines
+  job: "Stagiaire post-doctorale"
+  description: "Dynamique de la composition forestière après perturbations dans un contexte de changements climatiques: implications pour un aménagement qui intègre la vulnérabilité des espèces."
+  time: 2 ans
 
 
-- years: "2017–"
-  employer: Centre de la Science de la Biodiversité du Québec (CSBQ)
+- years: "2017–2020"
+  employer: Centre de la Science de la Biodiversité du Québec
   job: Coordonnatrice des ateliers en programmation R
   description: "Organisation du symposium annuel en R et des [ateliers R](http://qcbs.ca/wiki/r) pour les étudiants dans les différentes universités du Québec, révision et maintenance du matériel pédagogique en ligne."
   time: 3 ans à temps partiel.
@@ -223,7 +222,7 @@ experience:
   time: 1 an à temps partiel
 
 - years: "2013"
-  employer: Arold Lavoie - Biologiste, consultant en botanique et inspecteur de la flore.
+  #employer: Arold Lavoie - Biologiste, consultant en botanique et inspecteur de la flore.
   job: "Botaniste"
   description: Inventaires de plantes rares
   time: 5 jours
@@ -237,9 +236,15 @@ experience:
 
 teaching:
 
-- years: "2015–2017, 2020"
+- years: 2013–2014, \linebreak  2019-2020
+  time: BIO3753 - 4 x 120h
+  institute: Université de Montréal
+  job: Auxiliaire d'enseignement. Méthodes d'échantillonnage en écologie végétale et analyse statistique des données de communautés végétales.
+  description: "Stage d'écologie végétale."
+
+- years: 2015–2017, \linebreak 2020
   time: 6h/année
-  institute: Université de Montréal, Université du Québec à Montréal et Université du Québec à Rimouski. Centre de la Science de la Biodiversité du Québec (CSBQ)
+  institute: Université de Montréal, Université du Québec à Montréal et Université du Québec à Rimouski. Centre de la Science de la Biodiversité du Québec
   job: Instructrice
   description: "Analyses multivariées et Analyses multivariées avancées."
 
@@ -249,15 +254,9 @@ teaching:
   job: Auxiliaire d'enseignement. Excursions organisées dans différentes régions forestières du Québec méridional. Identification et écologie des espèces d'arbres et des principales communautés forestières du Québec.
   description: "Stage d'écologie forestière."
 
-- years: "2013–2014, 2019"
-  time: BIO3753 - 3 x 120h
-  institute: Université de Montréal
-  job: Auxiliaire d'enseignement. Méthodes d'échantillonnage en écologie végétale et analyse de la végétation.
-  description: "Stage d'écologie végétale."
-
 - years: 2019
   time: 0.5 jour
-  institute: Symposium R, Centre de la Science de la Biodiversité du Québec (CSBQ)
+  institute: Symposium R, Centre de la Science de la Biodiversité du Québec
   job: Instructrice
   description: "[Introduction à l'univers Rmarkdown](https://insileco.github.io/ResearchDown/)."
   url: "https://insileco.github.io/ResearchDown/"
@@ -271,7 +270,7 @@ teaching:
 
 - years: 2018
   time: 0.5 jour
-  institute: Symposium R, Centre de la Science de la Biodiversité du Québec (CSBQ)
+  institute: Symposium R, Centre de la Science de la Biodiversité du Québec
   job: Instructrice
   description: "[Cours avancé de R sur l'analyse géospatiale et l'édition de cartes](https://mhbrice.github.io/Rspatial/Rspatial_script.html)."
   url: "https://mhbrice.github.io/Rspatial/Rspatial_script.html"
@@ -286,9 +285,29 @@ teaching:
   time: BIO2041 - 90 heures
   institute: Université de Montréal
   job: Auxiliaire d'enseignement
-  description: "Biostatistic 1."
+  description: "Biostatistique 1."
+
+mentoring:
+- name: Élise Deschênes
+  years: 2018-2019
+  institute: Université de Montréal
+  advisors: Co-supervision avec Jacques Brisson
+- name: Andréa Richer
+  years: 2015
+  institute: Université de Montréal
+  advisors: Co-supervision avec Stéphanie Pellerin
 
 talks:
+- title: "Dynamique spatio-temporelle des forêts dans l’écotone boréal-tempéré en réponse aux changements globaux"
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  year: 2020
+  conference:
+      - name: "Soutenance de thèse de doctorat"
+        date: 2020-09-08
+        where: "Montréal, Qc"
+
 - title: "Contraintes et moteurs des changements dans les forêts du Québec"
   author:
   - family: Brice
@@ -313,7 +332,7 @@ talks:
     given: Marie-Josée
   year: 2019
   conference:
-      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)"
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec"
         date: 2019-12-19
         where: "Montréal, Qc"
 
@@ -374,7 +393,7 @@ talks:
     given: Marie-Josée
   year: 2018
   conference:
-      - name: "ESA Annual Meeting"
+      - name: "Affiche, Ecological Society of America Annual Meeting"
         url: "https://esa.org/neworleans/"
         date: 2018-08-01
         where: "New-Orleans, LA"
@@ -433,7 +452,7 @@ talks:
     given: Monique
   year: 2016
   conference:
-      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)"
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec"
         date: 2016-12-15
         where: "Montréal, Qc"
 
@@ -447,7 +466,7 @@ talks:
     given: Monique
   year: 2015
   conference:
-      - name: "Ecological Sociaty of America Annual Meeting"
+      - name: "Ecological Society of America Annual Meeting"
         date: 2015-08-13
         where: "Baltimore, MD"
 
@@ -475,7 +494,7 @@ talks:
     given: Monique
   year: 2014
   conference:
-      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec (CSBQ)"
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec"
         date: 2014-12-12
         where: "Montréal, Qc"
 
@@ -489,7 +508,7 @@ talks:
     given: Stéphanie
   year: 2014
   conference:
-      - name: "Partnerships for the Living City: Promoting Urban Biodiversity - A Partnership with the Secretariat of the Convention on Biological Diversity"
+      - name: "Affiche, Partnerships for the Living City: Promoting Urban Biodiversity"
         date: 2014-03-07
         where: "Montréal, Qc"
 
@@ -520,6 +539,8 @@ implication:
   description: Cheffe Scout pour un groupe de filles de 12-15 ans.
 - years: "2016–2017"
   description: Comité d'organisation du Symposium de biologie de l'Université de Montréal.
+
+
 
 langage:
   - lang: Français

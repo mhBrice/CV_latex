@@ -1,5 +1,17 @@
 ---
 references:
+- author:
+    - family: Kirk
+      given: David
+    - family: Brice
+      given: Marie-Hélène
+    - family: Bradstreet
+      given: Michael
+  title: "Changes in beta diversity and species functional traits differ between saplings and mature trees in an old growth forest."
+  container-title: Ecology and Evolution
+  issued:
+    - year: Accepté
+
 - id: brice_moderate_2020
   author:
     - family: Brice
@@ -17,19 +29,18 @@ references:
   container-title: Global Change Biology
   DOI: 10.1111/gcb.15143
   ISSN: 1365-2486
-  issue: 00
+  issue: 8
   issued:
     - year: 2020
   language: en
-  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/gcb.15143'
   source: Wiley Online Library
   title: >-
     Moderate disturbances accelerate forest transition dynamics under climate
     change in the temperate-boreal ecotone of eastern North America.
   type: article-journal
   URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15143'
-  volume: 00
-  page: 1-8
+  volume: 26
+  page: 4418-4435
 
 - id: pinceloup_vegetation_2020
   accessed:
@@ -260,18 +271,47 @@ references:
   DOI: 10.2980/21-2-3692
 
 
+tobepublished:
+  - author:
+      - family: Vieira
+        given: Willian
+      - family: Boulangeat
+        given: Isabelle
+      - family: Brice
+        given: Marie-Hélène
+      - family: Gravel
+        given: Dominique
+    title: "Paying colonization credit with forest management could accelerate northward range shift of temperate trees."
+    container-title: Forest ecology and management
+    status: "Soumis"
+
+  - author:
+      - family: Brice
+        given: Marie-Hélène
+      - family: Chalumeau
+        given: Aurélie
+      - family: Grondin
+        given: Pierre
+      - family: Fortin
+        given: Marie-Josée
+      - family: Legendre
+        given: Pierre
+    title: "Northern range shifts of temperate tree saplings in Québec: the role of climate, stand composition, soils and disturbances on recruitment dynamics."
+    container-title: Journal of biogeography
+    status: "En préparation"
+
 
 
 
 
 report:
-- title: "Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux. Thèse de doctorat (dépôt initial). Université de Montréal"
+- title: "Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux. Thèse de doctorat. Université de Montréal"
   author:
     - family: Brice
       given: Marie-Hélène
   year: 2020
 
-- title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec"
+- title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Rapport pour Nature Action Québec"
   author:
     - family: Brice
       given: Marie-Hélène
@@ -290,17 +330,13 @@ report:
       given: Marie-Hélène
   year: 2015
 
-#
-# tobepublished:
-# - id: Kirk2020
-#   type: article-journal
-#   author:
-#     - family: Kirk
-#       given: David Anthony
-#     - family: Brice
-#       given: Marie-Hélène
-#     - family: Bradstreet
-#       given: Michael S.
-#   title: "Βeta diversity changes in a Remnant Carolinian Forest: Evidence for Biotic Homogenization"
-#   container-title: Soumis
+
+reviewer:
+  - AoB PLANTS,
+  - Diversity and Distribution,
+  - Écoscience,
+  - Global Ecology and Biogeography,
+  - Oikos,
+  - Urban Forestry & Urban Greening.
+
 ---

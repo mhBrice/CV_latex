@@ -1,21 +1,21 @@
 ---
 # Settings
 mainfont: Arial
-fontsize: 10pt
+fontsize: 11pt
 lang: eng
-geometry: letterpaper, left=40mm, right=20mm, top=20mm, bottom=20mm
+geometry: letterpaper, left=35mm, right=20mm, top=20mm, bottom=20mm
 
 # Personal details
 name: Marie-Hélène Brice
 status:
-  - title: Phd candidate in forest ecology
+  - title: Doctor in forest ecology
   - title: Master in urban ecology
 address:
 - 10392 Jeanne-mance
 - H3L 3C1, Montréal
 - Québec (CAN)
 phone: 514-318-8945
-email: marie-helene.brice@umontreal.ca
+email: mariehbrice@outlook.com
 website: mhBrice.github.io
 blog: insileco.github.io/
 github: mhBrice
@@ -24,11 +24,10 @@ mainskills: "Plant ecology, Landscape ecology, Urban ecology, Multivariate stati
 
 skills:
   science:
-    - Plant ecology
+    - Forest ecology
     - Community ecology
     - Urban ecology
     - Landscape ecology
-    - Plant identification
     - Functional ecology
     - Multivariate statistics
     - Spatial statistics
@@ -41,12 +40,12 @@ skills:
     - $\blacksquare \blacksquare \blacksquare \blacksquare \blacksquare$ Microsoft Office
 
 education:
-- years: 2016–
+- years: 2016–2020
   degree: Phd Thesis.
   subject: Spatio-temporal response of trees in the boreal-temperate ecotone in the face of climate change.
   institute: Université de Montréal, University of Toronto.
   advisors: Pierre Legendre & Marie-Josée Fortin
-  honour: "Cumulative mean 4.3/4.3"
+  honour: "Mention exceptionnelle. Cumulative mean 4.3/4.3"
   goal: Understand and quantify the combined effect of recent climate change and disturbances on forest community dynamics in Québec's boreal-temperate ecotone over the past 50 years.
 
 - years: 2013–2015
@@ -66,8 +65,8 @@ education:
 
 
 grants:
-- year: 2018-2019
-  title: BIOS2 Fellow
+- year: 2018-2020
+  title: BIOS2 Fellow (Computational Biodiversity Science and Services training program)
   amount: 10000$
   description: Computational Biodiversity Science and Services training program
   begin: 2019-09-01
@@ -171,13 +170,13 @@ awards:
 
 experience:
 
-- years: "2020"
+- years: "2020-..."
   employer: "Direction de la recherche forestière, Ministère des forêts, de la faune et des parcs (MFFP)"
-  job: "Research intership"
-  description: "Collaboration and discussion on various research projects about the recent and future effects of climate change on Quebec forests."
-  time: 2 weeks
+  job: "Postdoctoral fellow"
+  description: "Forest dynamics after disturbances in a context of climate change: implications for management and species vulnerability."
+  time: 2 years
 
-- years: "2017–"
+- years: "2017–2020"
   employer: Quebec Center for Biodiversity Science (QCBS)
   job: R workshop coordinator
   description: "Organize annual R symposium and [R workshops](http://qcbs.ca/wiki/r) for students from different universities in Quebec, revamp online materials."
@@ -207,7 +206,7 @@ experience:
   time: 1 year part time
 
 - years: "2013"
-  employer: Arold Lavoie - Biologist, botanical consultant.
+  #employer: Arold Lavoie - Biologist, botanical consultant.
   job: "Botanist"
   description: Rare plant surveys.
   time: 5 days
@@ -221,7 +220,13 @@ experience:
 
 teaching:
 
-- years: "2015–2017, 2020"
+- years: 2013–2014, \linebreak  2019-2020
+  time: BIO3753
+  institute: Université de Montréal
+  job: Teaching assistant
+  description: "Plant ecology course."
+
+- years: 2015–2017, \linebreak 2020
   time: 6h/year
   institute: Université de Montréal, Université du Québec à Montréal & Université du Québec à Rimouski. Quebec Center for Biodiversity Science (QCBS)
   job: R workshop presenter
@@ -232,12 +237,6 @@ teaching:
   institute: Université de Montréal
   job: Teaching assistant
   description: "Forest ecology course."
-
-- years: "2013–2014, 2019"
-  time: BIO3753
-  institute: Université de Montréal
-  job: Teaching assistant
-  description: "Plant ecology course."
 
 - years: 2019
   time: 0.5 day
@@ -272,7 +271,27 @@ teaching:
   job: Teaching assistant
   description: "Biostatistic 1."
 
+mentoring:
+- name: Élise Deschênes
+  years: 2018-2019
+  institute: Université de Montréal
+  advisors: Co-supervision with Jacques Brisson
+- name: Andréa Richer
+  years: 2015
+  institute: Université de Montréal
+  advisors: Co-supervision with Stéphanie Pellerin
+
 talks:
+- title: "Dynamique spatio-temporelle des forêts dans l’écotone boréal-tempéré en réponse aux changements globaux"
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  year: 2020
+  conference:
+      - name: "PhD thesis defense"
+        date: 2020-09-08
+        where: "Montréal, Qc"
+
 - title: "Contraintes et moteurs des changements dans les forêts du Québec"
   author:
   - family: Brice
@@ -358,7 +377,7 @@ talks:
     given: Marie-Josée
   year: 2018
   conference:
-      - name: "Ecological Society of America annual meeting"
+      - name: "Affiche, Ecological Society of America annual meeting"
         url: "https://esa.org/neworleans/"
         date: 2018-08-01
         where: "New-Orleans, LA"
@@ -417,7 +436,7 @@ talks:
     given: Monique
   year: 2016
   conference:
-      - name: "Quebec Center of Biodiversity Science (QCBS) annual symposium"
+      - name: "Quebec Center of Biodiversity Science annual symposium"
         date: 2016-12-15
         where: "Montréal, Qc"
 
@@ -459,7 +478,7 @@ talks:
     given: Monique
   year: 2014
   conference:
-      - name: "Quebec Center of Biodiversity Science (QCBS) annual symposium"
+      - name: "Quebec Center of Biodiversity Science annual symposium"
         date: 2014-12-12
         where: "Montréal, Qc"
 
@@ -473,7 +492,7 @@ talks:
     given: Stéphanie
   year: 2014
   conference:
-      - name: "Partnerships for the Living City: Promoting Urban Biodiversity - A Partnership with the Secretariat of the Convention on Biological Diversity"
+      - name: "Poster, Partnerships for the Living City: Promoting Urban Biodiversity - A Partnership with the Secretariat of the Convention on Biological Diversity"
         date: 2014-03-07
         where: "Montréal, Qc"
 
